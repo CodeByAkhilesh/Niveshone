@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer components {
+  .cursorGradient {
+    animation: blink 0.8s step-end infinite;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@layer components {
+  .whatsappIcon {
+    animation: floatUpDown 1.5s ease-in infinite;
+  }
+}
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
