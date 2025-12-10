@@ -26,3 +26,39 @@
     transform: translateY(-12px);
   }
 }
+
+/* Width of scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track background */
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+/* Thumb — dull gradient */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    rgba(58, 171, 80, 0.6),
+    rgba(38, 142, 255, 0.6)
+  );
+  border-radius: 10px;
+}
+
+/* Thumb — bright gradient on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    to top,
+    #3aab50,
+    #268eff
+  );
+}
+
+/* Firefox support */
+/* * {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(15, 250, 203, 0.6) rgb(15, 15, 15);
+} */

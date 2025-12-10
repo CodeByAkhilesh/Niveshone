@@ -8,7 +8,7 @@ const TextTypingEffect = () => {
       {/* Typing Text */}
       <h1 className="font-bold bg-gradient-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
         <Typewriter
-          words={['The right strategy', 'Expert fund selection', 'Zero financial stress']}
+          words={['The Right Strategy', 'Expert Fund Selection', 'Zero Financial Stress']}
           loop={true}
           cursor={false}
           typeSpeed={70}

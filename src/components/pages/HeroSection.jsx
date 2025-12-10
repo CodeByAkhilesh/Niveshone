@@ -1,7 +1,7 @@
 import React from "react";
-import CubeEffectSlider from "./CubeEffectSlider";
-import TextTypingEffect from "./TextTypingEffect";
-import Button from "./Button";
+import CubeEffectSlider from "../CubeEffectSlider";
+import TextTypingEffect from "../TextTypingEffect";
+import Button from "../Button";
 
 function HeroSection() {
   return (
