@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import HeroSection from './components/pages/HeroSection'
-import OurPartnerAMCs from './components/pages/OutPartnerAMCs'
+import OurPartnerAMCs from './components/pages/OurPartnerAMCs'
 
 function App() {
   return (
