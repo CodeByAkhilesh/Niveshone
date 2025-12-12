@@ -23,7 +23,7 @@ const amcLogos = [
 const OurPartnerAMCs = () => {
   return (
     <div className="flex-col flex items-center justify-center my-auto  mt-40 py-10">
-        <h1 className="text-3xl md:text-4xl mx-5 xl:w-[1210px] lg:text-6xl font-bold text-white mb-10 lg:mb-25">We work with <span className="bg-gradient-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">40+ AMCs in India!</span></h1>
+        <h1 className="text-3xl md:text-4xl mx-5 xl:w-[1210px] lg:text-6xl font-bold text-white mb-10 lg:mb-25 tracking-tighter">We work with <span className="bg-gradient-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">40+ AMCs in India!</span></h1>
     <div className="w-[310px] h-[390px] md:w-[703px] lg:w-[958px] bg-gradient-to-r from-[#3aab50] to-[#268eff] xl:w-[1210px] rounded-2xl lg:h-80 items-center flex z-10">
       <Swiper
   modules={[Autoplay]}
