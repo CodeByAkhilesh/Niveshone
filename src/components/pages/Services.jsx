@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import ServiceCard from '../ServiceCard'
+import BgLayout from '../BgLayout';
+import Slider from '../Slider';
 
 const Services = () => {
 
@@ -10,32 +12,32 @@ const [serviceContent, setServiceContent] = useState([
     },
     {
       servicName:"Portfolio Management & Reviwe",
-      discription:"We assist investors in selection of mutual fund schemes based on their financial goals and risk profile."
+      discription:"Regular review support to help investors track their mutual fund investments and make informed decisions."
     },
     {
       servicName:"Goal-Based Investment",
-      discription:"We assist investors in selection of mutual fund schemes based on their financial goals and risk profile."
+      discription:"Assistance in planning mutual fund investments according to personal financial goals such as education, retirement, or wealth planning."
     },
     {
-      servicName:"Goal-Based Investment",
-      discription:"We assist investors in selection of mutual fund schemes based on their financial goals and risk profile."
+      servicName:" Tax Saving (ELSS)",
+      discription:"Guidance on ELSS mutual funds to help investors understand tax-saving options under Section 80C, as per applicable tax laws."
     },
     {
-      servicName:"Goal-Based Investment",
-      discription:"We assist investors in selection of mutual fund schemes based on their financial goals and risk profile."
+      servicName:"SIP Investment Services",
+      discription:"Support for starting and managing SIP investments based on the investor’s goals, budget, and time horizon."
     },
     {
-      servicName:"Goal-Based Investment",
-      discription:"We assist investors in selection of mutual fund schemes based on their financial goals and risk profile."
+      servicName:"Online & Paperless Services",
+      discription:"We help investors complete the mutual fund process online in a simple and paperless way for added convenience."
     },
   ]);
 
   return (
-    <div className=''>
-    <div className='w-[1210px] mx-auto text-6xl font-bold tracking-tight mt-20'>
-      <h1 className='text-white'>Committed to helping you achieve <br /> <span className='bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent'> Financial Freedom</span></h1>
-      <h2 className='text-white text-5xl font-medium mt-10 text-center'>How We Support Your Investments</h2>
-      <div className='py-15 flex flex-wrap gap-20 justify-center '>
+    <div className='pb-4 h-auto'>
+    <div className='w-[1210px] mx-auto text-6xl font-bold tracking-tight mt-25'>
+      {/* <h1 className='text-white'>Committed to helping you achieve <br /> <span className='bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent'> Financial Freedom</span></h1> */}
+      <h1 className='text-white mb-10'>How We Support <span className='bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent'> Your Investments </span></h1>
+      <div className='py-15 flex flex-wrap gap-20 px-15 justify-between '>
        {serviceContent.map((content, index)=>{
         return(
         <div key={index}>
