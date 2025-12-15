@@ -46,6 +46,9 @@ const [serviceContent, setServiceContent] = useState([
        )})}
       </div>
     </div>
+    <div className='relative h-32 w-[310px] md:w-[703px] lg:w-[958px] xl:w-[1210px] mx-auto mt-20'>
+      <BgLayout content={"Committed to helping you achieve Financial Freedom"}/>
+    </div>
     </div>
   )
 }

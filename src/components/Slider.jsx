@@ -21,7 +21,7 @@ const amcLogos = [
 
 const Slider = () => {
   return (
-    <div className="w-[1210px]">
+    <div className="w-full">
       <Swiper
         modules={[Autoplay]}
         loop={true}
