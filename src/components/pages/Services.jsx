@@ -34,10 +34,10 @@ const [serviceContent, setServiceContent] = useState([
 
   return (
     <div className='pb-4 h-auto'>
-    <div className='w-[1210px] mx-auto text-6xl font-bold tracking-tight mt-25'>
+    <div className='md:w-[1210px] mx-auto text-3xl md:text-6xl font-bold tracking-tight mt-15 md:mt-25'>
       {/* <h1 className='text-white'>Committed to helping you achieve <br /> <span className='bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent'> Financial Freedom</span></h1> */}
-      <h1 className='text-white mb-10'>How We Support <span className='bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent'> Your Investments </span></h1>
-      <div className='py-15 flex flex-wrap gap-20 px-15 justify-between '>
+      <h1 className='text-white mb-10 px-5'>How We Support <span className='bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent'> Your Investments </span></h1>
+      <div className='py-5 md:py-15 flex flex-col md:flex-row md:flex md:flex-wrap gap-15 md:gap-20 md:px-15 md:justify-between items-center '>
        {serviceContent.map((content, index)=>{
         return(
         <div key={index}>
@@ -46,8 +46,8 @@ const [serviceContent, setServiceContent] = useState([
        )})}
       </div>
     </div>
-    <div className='relative h-32 w-[310px] md:w-[703px] lg:w-[958px] xl:w-[1210px] mx-auto mt-20'>
-      <BgLayout content={"Committed to helping you achieve Financial Freedom"}/>
+    <div className='flex flex-col relative h-32 w-[310px] md:w-[703px] lg:w-[958px] xl:w-[1210px] mx-auto mt-20 md:mt-20'>
+      <BgLayout content={"Committed To Helping You Achieve Financial Freedom"}/>
     </div>
     </div>
   )

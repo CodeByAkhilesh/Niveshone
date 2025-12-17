@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/pages/HeroSection'
 import OurPartnerAMCs from './components/pages/OurPartnerAMCs'
 import Services from './components/pages/Services'
-import StartsipSection from './components/pages/StartsipSection'
+import GoalsSection from './components/pages/GoalsSection'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <HeroSection/>
       <OurPartnerAMCs/>
       <Services/>
-      <StartsipSection/>
+      <GoalsSection/>
     </div>
   )
 }
