@@ -34,10 +34,10 @@ const [serviceContent, setServiceContent] = useState([
 
   return (
     <div className='pb-4 h-auto'>
-    <div className='md:w-[1210px] mx-auto text-3xl md:text-6xl font-bold tracking-tight mt-15 md:mt-25'>
+    <div className='w-[310px] xl:w-[1210px] md:w-[703px] mx-auto text-3xl md:text-6xl font-bold tracking-tight mt-15 md:mt-25'>
       {/* <h1 className='text-white'>Committed to helping you achieve <br /> <span className='bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent'> Financial Freedom</span></h1> */}
-      <h1 className='text-white mb-10 px-5'>How We Support <span className='bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent'> Your Investments </span></h1>
-      <div className='py-5 md:py-15 flex flex-col md:flex-row md:flex md:flex-wrap gap-15 md:gap-20 md:px-15 md:justify-between items-center '>
+      <h1 className='text-white mb-10 px-5 text-3xl md:text-5xl lg:text-6xl'>How We Support <span className='bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent'> Your Investments </span></h1>
+      <div className='py-5 md:py-15 flex flex-col md:flex-row md:flex md:flex-wrap gap-15 md:gap-20 md:px-5 xl:px-20 md xl:justify-between items-center '>
        {serviceContent.map((content, index)=>{
         return(
         <div key={index}>
