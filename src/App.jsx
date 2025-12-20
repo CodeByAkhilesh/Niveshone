@@ -4,6 +4,8 @@ import HeroSection from './components/pages/HeroSection'
 import OurPartnerAMCs from './components/pages/OurPartnerAMCs'
 import Services from './components/pages/Services'
 import GoalsSection from './components/pages/GoalsSection'
+import FaqSection from './components/FaqSection'
+import AppPreviwe from './components/pages/AppPreview'
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <OurPartnerAMCs/>
       <Services/>
       <GoalsSection/>
+      <AppPreviwe/>
+      <FaqSection/>
     </div>
   )
 }

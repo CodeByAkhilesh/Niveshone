@@ -13,7 +13,7 @@ function HeroSection() {
           A Future With <br />
           <span className="flex">
             <TextTypingEffect />
-            <span className="cursorGradient bg-gradient-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
+            <span className="cursorGradient bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
               |
             </span>
           </span>

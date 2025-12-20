@@ -2,6 +2,7 @@ import React from 'react'
 import ServiceCard from '../ServiceCard'
 import GoalsCard from '../GoalsCard'
 import Button from '../Button'
+import BgLayout from '../BgLayout'
 
 const GoalsSection = () => {
   return (
@@ -19,6 +20,9 @@ const GoalsSection = () => {
       <div className='mx-auto flex items-center justify-center mt-15 w-'>
         <Button btnName={"START A SIP"}/>
       </div>
+      <div className='flex flex-col relative h-48 w-[90vw] md:w-[703px] lg:w-[958px] xl:w-[1210px] mx-auto mt-20 md:mt-20'>
+      <BgLayout content={"Committed To Helping You Achieve Financial Freedom"}/>
+    </div>
     </div>
   )
 }
