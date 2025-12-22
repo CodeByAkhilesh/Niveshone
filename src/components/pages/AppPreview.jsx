@@ -3,7 +3,7 @@ import Button from '../Button'
 
 const AppPreviwe = () => {
   return (
-    <div className='w-[1210px] mx-auto pt-10'>
+    <div className='w-302.5 mx-auto pt-10'>
       <h1 className='text-white text-center text-3xl md:text-5xl tracking-tighter font-semibold mt-20 px-5'>We make investing simple, transparent, and hassle-free.</h1>
       <div className='py-10 flex'>
         <div className='left-content w-[50%] flex justify-center'>
