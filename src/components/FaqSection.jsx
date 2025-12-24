@@ -15,6 +15,18 @@ const FaqSection = () => {
       question: "React aur Tailwind sath kaise use kare?",
       answer: "React components me Tailwind classes use karke.",
     },
+    {
+      question: "React aur Tailwind sath kaise use kare?",
+      answer: "React components me Tailwind classes use karke.",
+    },
+    {
+      question: "React aur Tailwind sath kaise use kare?",
+      answer: "React components me Tailwind classes use karke.",
+    },
+    {
+      question: "React aur Tailwind sath kaise use kare?",
+      answer: "React components me Tailwind classes use karke.",
+    },
   ]);
 
   const [activeIndex, setActiveIndex] = useState(null);

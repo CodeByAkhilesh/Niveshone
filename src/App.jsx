@@ -6,10 +6,11 @@ import Services from './components/pages/Services'
 import GoalsSection from './components/pages/GoalsSection'
 import FaqSection from './components/FaqSection'
 import AppPreviwe from './components/pages/AppPreview'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className='main-scroll bg-black min-h-screen pb-20'>
+    <div className='main-scroll bg-black min-h-screen'>
       <Navbar/>
       <HeroSection/>
       <OurPartnerAMCs/>
@@ -17,6 +18,7 @@ function App() {
       <GoalsSection/>
       <AppPreviwe/>
       <FaqSection/>
+      <Footer/>
     </div>
   )
 }
