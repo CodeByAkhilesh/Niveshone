@@ -17,8 +17,8 @@ function App() {
       <Services/>
       <GoalsSection/>
       <AppPreviwe/>
-      <FaqSection/>
-      <Footer/>
+      {/* <FaqSection/> */}
+      {/* <Footer/> */}
     </div>
   )
 }
