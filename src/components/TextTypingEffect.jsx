@@ -4,11 +4,14 @@ import { Typewriter } from "react-simple-typewriter";
 const TextTypingEffect = () => {
   return (
     <div className="">
-      
       {/* Typing Text */}
-      <h1 className="font-bold bg-gradient-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
+      <h1 className="font-bold bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
         <Typewriter
-          words={['The Right Strategy', 'Expert Fund Selection', 'Zero Financial Stress']}
+          words={[
+            "The Right Strategy",
+            "Expert Fund Selection",
+            "Zero Financial Stress",
+          ]}
           loop={true}
           cursor={false}
           typeSpeed={70}

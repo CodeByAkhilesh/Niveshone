@@ -2,7 +2,6 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
-
 const amcLogos = [
   "src/assets/AMCs-img/bandhan.png",
   "src/assets/AMCs-img/hdfc.png",
@@ -33,37 +32,37 @@ const Slider = () => {
         allowTouchMove={false}
         dir="ltr"
         className="w-full"
-      
         breakpoints={{
-          0: {          // 👈 Mobile
+          0: {
+            // 👈 Mobile
             slidesPerView: 1,
             spaceBetween: 0,
           },
-          480: {        // Small mobile
+          480: {
+            // Small mobile
             slidesPerView: 1,
             spaceBetween: 15,
           },
-          768: {        // Tablet
+          768: {
+            // Tablet
             slidesPerView: 3,
             spaceBetween: 20,
           },
-          1024: {       // Laptop / Desktop
+          1024: {
+            // Laptop / Desktop
             slidesPerView: 5,
             spaceBetween: 20,
-          }
+          },
         }}
       >
         {amcLogos.map((logo, index) => (
-          <SwiperSlide
-            key={index}
-            className="flex items-center justify-center"
-          >
+          <SwiperSlide key={index} className="flex items-center justify-center">
             <img
               src={logo}
               alt={`AMC Logo ${index}`}
               className="
-                w-[280px] h-[150px]        // 👈 Mobile size → big
-                lg:w-[160px] lg:h-auto     // 👈 Desktop size
+                w-70 h-37.5        // 👈 Mobile size → big
+                lg:w-40 lg:h-auto     // 👈 Desktop size
                 object-contain
               "
             />
@@ -71,7 +70,7 @@ const Slider = () => {
         ))}
       </Swiper>
     </div>
-  )
-}
+  );
+};
 
-export default Slider
+export default Slider;
