@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import Button from "./Button";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="text-white md:max-w-302.5 mx-auto md:px-10 lg:px-5 px-10 py-4 flex justify-between items-center">
+    <div className="fixed z-30 w-full bg-[#00000000] backdrop-blur-xl">
+    <nav className="text-white md:max-w-302.5 md:px-10 lg:px-5 px-10 py-4 flex justify-between items-center w-full mx-auto">
       {/* Logo */}
       <div className="text-2xl font-bold w-20">
         <img
@@ -16,20 +18,20 @@ function Navbar() {
       </div>
 
       {/* Desktop Menu */}
-      <ul className="hidden lg:flex md:gap-6 lg:gap-8 text-lg items-center">
-        <li className="cursor-pointer hover:text-blue-400 font-bold">Home</li>
-        <li className="cursor-pointer hover:text-blue-400 font-bold">
+      <nav className="hidden lg:flex md:gap-6 lg:gap-8 text-lg items-center">
+        <NavLink to="/" className="cursor-pointer hover:text-blue-400 font-bold">Home</NavLink>
+        <NavLink to="/Services" className="cursor-pointer hover:text-blue-400 font-bold">
           Services
-        </li>
-        <li className="cursor-pointer hover:text-blue-400 font-bold">About</li>
-        <li className="cursor-pointer hover:text-blue-400 font-bold">
+        </NavLink>
+        <NavLink to="/about" className="cursor-pointer hover:text-blue-400 font-bold">About</NavLink>
+        <NavLink to="/calculator" className="cursor-pointer hover:text-blue-400 font-bold">
           Calculator
-        </li>
-        <li className="cursor-pointer hover:text-blue-400 font-bold">
+        </NavLink>
+        <NavLink to="contact" className="cursor-pointer hover:text-blue-400 font-bold">
           Contact
-        </li>
+        </NavLink>
         <Button btnName={"Login"} />
-      </ul>
+      </nav>
 
       {/* Mobile Menu Button */}
       <button className="lg:hidden text-3xl" onClick={() => setOpen(!open)}>
@@ -46,6 +48,7 @@ function Navbar() {
         </ul>
       )}
     </nav>
+    </div>
   );
 }
 

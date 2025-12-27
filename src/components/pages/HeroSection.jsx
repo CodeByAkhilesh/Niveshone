@@ -5,7 +5,7 @@ import Button from "../Button";
 
 function HeroSection() {
   return (
-    <section className="text-white md:max-h-215 w-full flex flex-col md:items-center md:w-full lg:max-w-302.5 lg:mx-auto px-5 md:px-10 relative overflow-hidden lg:mt-18 md:flex md:flex-col lg:flex lg:flex-row">
+    <section className="text-white md:max-h-215 w-full flex flex-col md:items-center md:w-full lg:max-w-302.5 lg:mx-auto px-5 md:px-10  overflow-hidden lg:mt- md:flex md:flex-col lg:flex lg:flex-row pt-15 md:pt-35">
       {/* Left Text Section */}
       <div className="md:w-full lg:w-[42vw] md:h-125 h-75 sm:h-100">
         <h1 className="lg:text-6xl xl:text-6xl xl:mt-20 text-3xl sm:text-5xl lg:text-[35px] lg:mt-33 font-medium leading-tight mt-15">
@@ -33,7 +33,7 @@ function HeroSection() {
       {/* WhatsApp Floating Icon */}
       <a
         href="https://wa.me/+917984300926"
-        className="whatsappIcon bg-green-500 w-12 h-12 flex items-center justify-center rounded-full fixed bottom-6 right-10 md:right-13 lg:right-13 hover:scale-110 transition z-10"
+        className="whatsappIcon bg-green-500 w-12 h-12 flex items-center justify-center rounded-full fixed bottom-6 right-10 md:right-13 lg:right-13 hover:scale-110 transition z-40"
       >
         <img src="src\assets\whatsapp.png" alt="whatsapp" className="w-8" />
       </a>

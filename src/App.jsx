@@ -7,11 +7,13 @@ import GoalsSection from "./components/pages/GoalsSection";
 import FaqSection from "./components/FaqSection";
 import AppPreviwe from "./components/pages/AppPreview";
 import Footer from "./components/Footer";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
     <div className="main-scroll bg-black min-h-screen ">
       <Navbar />
+      <AppRoutes/>
       <HeroSection />
       <OurPartnerAMCs />
       <Services />
