@@ -40,7 +40,7 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {open && (
-        <ul className="absolute top-16 left-0 w-full bg-gray-800 flex flex-col gap-4 py-6 text-center lg:hidden text-lg">
+        <ul className="absolute top-16 left-0 w-full bg-[#030202a8] flex flex-col gap-4 py-6 text-center lg:hidden text-lg backdrop-blur-2xl">
           <li className="cursor-pointer hover:text-blue-400">Home</li>
           <li className="cursor-pointer hover:text-blue-400">About</li>
           <li className="cursor-pointer hover:text-blue-400">Services</li>

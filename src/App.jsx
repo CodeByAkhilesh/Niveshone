@@ -13,7 +13,6 @@ function App() {
   return (
     <div className="main-scroll bg-black min-h-screen ">
       <Navbar />
-      <AppRoutes/>
       <HeroSection />
       <OurPartnerAMCs />
       <Services />
