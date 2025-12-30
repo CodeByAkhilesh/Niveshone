@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from '../Navbar'
+import Footer from '../Footer'
 
 const AboutUs = () => {
   return (
     <div className='h-screen w-full bg-amber-300'>
-      <h1 className='text-7xl'>Hello</h1>
+      <Navbar/>
+      <Footer/>
     </div>
   )
 }
