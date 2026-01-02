@@ -43,19 +43,21 @@ const Calculator = () => {
     <div className=''>
       <Navbar/>
       <div className='lg:w-205.75 xl:w-302.5 mx-auto pt-10 lg:py-10 md:px-10 xl:px-15'>
-        <h1 className="text-3xl md:text-4xl mx-8 lg:mx-0 xl:w-302.5 lg:text-6xl font-bold text-white md:mb-10 lg:mb-2 mt-20 md:mt-30 tracking-tighter">
+        <h1 className="text-3xl md:text-4xl mx-8 lg:mx-0 xl:w-302.5 lg:text-6xl font-bold text-white md:mb-10  lg:mb-2 mt-20 md:mt-30 tracking-tighter">
         Financial Tools To {" "}
         <span className="bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
           Plan Your Goals.
         </span>
       </h1>
       </div>
+      <div className='min-h-screen'>
       <div className="py-10 md:py-15 xl:py-5 flex flex-col md:flex-row flex-wrap gap-y-15 md:px-10 xl:px-15  items-center md:justify-between lg:w-205.75 xl:w-302.5 mx-auto mb-20">
         {toolsData.map((toolData, index)=>{
           return(
             <ToolCard key={index} data={toolData}/>
           )
         })}
+    </div>
     </div>
       <Footer/>
     </div>
