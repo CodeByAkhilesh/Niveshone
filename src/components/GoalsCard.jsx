@@ -6,7 +6,7 @@ const GoalsCard = ({ goalsData }) => {
       <img
         className="h-31.25 w-31.25 object-contain"
         src={goalsData.img}
-        alt=""
+        alt="image"
       />
       <h1 className="text-2xl font-bold mt-6 mb-3">{goalsData.headding}</h1>
       <p className="text-center text-lg">{goalsData.pera}</p>

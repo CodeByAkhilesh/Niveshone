@@ -26,10 +26,10 @@ function Navbar() {
             Home
           </NavLink>
           <NavLink
-            to="/Services"
+            to="/products"
             className="cursor-pointer hover:text-blue-400 font-bold"
           >
-            Services
+            Products
           </NavLink>
           <NavLink
             to="/about"

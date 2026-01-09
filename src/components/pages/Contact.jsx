@@ -10,7 +10,7 @@ const Contact = () => {
       <Navbar />
       <div className="px-3 lg:px-20 xl:px-0 xl:w-280 mx-auto pt-0.5 min-h-screen">
         {/* page main headding */}
-        <h1 className="text-3xl md:text-4xl mx-5 xl:w-302.5 lg:text-6xl font-bold text-white mb-10 lg:mb- mt-25 md:mt-35">
+        <h1 className="text-3xl md:text-4xl mx-5 xl:w-302.5 lg:text-6xl font-bold text-white mb-10 lg:mb-20 mt-25 md:mt-35">
           Get in Touch{" "}
           <span className="bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
             With Us.
@@ -27,8 +27,18 @@ const Contact = () => {
               To get in touch, please use the details or references provided
               below. I will respond as soon as possible.
             </p>
-            <h4 className="text-xl md:text-2xl font-bold pt-4 flex gap-4"><span><RiPhoneFill /></span>+91-7232933333</h4>
-            <h4 className="text-xl md:text-2xl font-bold pt-4 flex items-center gap-4"><span><RiMailFill /></span>Niveshonefs@gmail.com</h4>
+            <h4 className="text-xl md:text-2xl font-bold pt-4 flex gap-4">
+              <span>
+                <RiPhoneFill />
+              </span>
+              +91-7232933333
+            </h4>
+            <h4 className="text-xl md:text-2xl font-bold pt-4 flex items-center gap-4">
+              <span>
+                <RiMailFill />
+              </span>
+              Niveshonefs@gmail.com
+            </h4>
             <div className="pt-5 mx-auto lg:mx-0">
               <Button btnName={"Chat on whatsapp"} />
             </div>
