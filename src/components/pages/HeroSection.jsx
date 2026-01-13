@@ -21,7 +21,7 @@ function HeroSection() {
 
         {/* Button */}
         <div className="mt-8">
-          <Button btnName={"Create Acount"} />
+          <Button btnName={"Create Account"} />
         </div>
       </div>
 

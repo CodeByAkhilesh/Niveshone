@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import GoalsCard from '../GoalsCard'
+import Button from '../Button';
 
 function Products() {
 
@@ -52,6 +53,13 @@ function Products() {
           {goalsData.map((data, index) => {
           return <GoalsCard key={index} goalsData={data}  />;
         })}
+        </div>
+        <div className='flex flex-col items-center mb-20 px-5'>
+          <h1 className='text-xl md:text-3xl text-[#268eff] font-bold tracking-tight'>Free Investment Discussion</h1>
+          <h1 className='text-[34px] md:text-5xl font-bold text-white tracking-tight md:mt-3'>Start Your Investment</h1>
+          <div className=' md:flex items-center flex flex-col md:flex-row gap-5 md:gap-8 mt-3 md:mt-6'>
+            <Button btnName={"Create Account"}/> <Button  btnName={"Chat On Whatsapp"}/>
+          </div>
         </div>
 
      </div>
