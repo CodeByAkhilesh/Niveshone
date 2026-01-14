@@ -3,6 +3,7 @@ import Navbar from '../Navbar'
 import Footer from '../Footer'
 import Button from '../Button'
 import ToolCard from '../ToolCard'
+import WhatsappIcon from '../WhatsappIcon'
 
 const Calculator = () => {
 
@@ -59,6 +60,8 @@ const Calculator = () => {
         })}
     </div>
     </div>
+    {/* WhatsApp Floating Icon */}
+      <WhatsappIcon/>
       <Footer/>
     </div>
   )

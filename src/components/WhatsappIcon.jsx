@@ -1,0 +1,14 @@
+import React from "react";
+
+const WhatsappIcon = () => {
+  return (
+    <a
+      href="https://wa.me/+917984300926"
+      className="whatsappIcon bg-green-500 w-12 h-12 flex items-center justify-center rounded-full fixed bottom-6 right-10 md:right-13 lg:right-13 hover:scale-110 transition z-40"
+    >
+      <img src="src\assets\whatsapp.png" alt="whatsapp" className="w-8" />
+    </a>
+  );
+};
+
+export default WhatsappIcon;

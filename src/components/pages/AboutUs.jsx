@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
+import WhatsappIcon from "../WhatsappIcon";
 
 const AboutUs = () => {
   return (
@@ -53,6 +54,8 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      {/* WhatsApp Floating Icon */}
+      <WhatsappIcon/>
       <Footer />
     </div>
   );

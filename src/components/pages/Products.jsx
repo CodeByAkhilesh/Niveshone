@@ -3,6 +3,7 @@ import Navbar from '../Navbar'
 import Footer from '../Footer'
 import GoalsCard from '../GoalsCard'
 import Button from '../Button';
+import WhatsappIcon from '../WhatsappIcon';
 
 function Products() {
 
@@ -63,6 +64,8 @@ function Products() {
         </div>
 
      </div>
+     {/* WhatsApp Floating Icon */}
+      <WhatsappIcon/>
      <Footer/>
     </div>
   )

@@ -3,6 +3,7 @@ import Button from "../Button";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { RiMailFill, RiPhoneFill } from "@remixicon/react";
+import WhatsappIcon from "../WhatsappIcon";
 
 const Contact = () => {
   return (
@@ -72,6 +73,8 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      {/* WhatsApp Floating Icon */}
+      <WhatsappIcon/>
       <Footer />
     </div>
   );
