@@ -26,7 +26,7 @@ const AboutUs = () => {
         </div>
         <div className="right-content px-10 h-140 md:w-190 lg:w-165 shrink-0 text-white flex items-center mx-auto">
           <div className="md:pl-10 w-full">
-            <h3 className="text-4xl hidden lg:block w-full font-bold text-whitentracking-tighter pb-10">
+            <h3 className="text-4xl hidden lg:block w-full font-bold text-whitentracking-tighter pb-7">
               Meet{" "}
               <span className="bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
                 The Founder
@@ -34,22 +34,15 @@ const AboutUs = () => {
             </h3>
             <h1 className="text-4xl md:text-6xl font-bold leading-6 md:leading-8">
               Akhilesh R Yadav <br />{" "}
-              <span className="text-[16px] tracking-tighter md:text-2xl font-bold text-[#3aab50]">
-                250,000+ Youtube | 150,000+ Instagram
+              <span className="text-[16px] tracking-tighter md:text-2xl font-medium text-[#3aab50]">
+                AMFI Registered | NISM Certified | ARN-333858
               </span>
             </h1>
-            <p className="md:text-2xl leading-tight pt-5">
-              As an entrepreneur and content creator, Ayushman has a passion for
-              creating exceptional content that resonates with audiences. His
-              journey began in February 2021 when he started making finance
-              videos on YouTube for India's youth. After his success on Youtube,
-              he launched his Instagram account in August 2022 and scaled to 1
-              lakh followers in less than 4 months.
+            <p className="md:text-[22px] leading-tight pt-5">
+             <b> Nivesh One Finance Services </b> is a client-centric financial services brand committed to helping individuals achieve their financial goals through disciplined and goal-based mutual fund investing. We believe that successful investing is built on consistency, proper asset allocation, and a clear long-term approach rather than short-term market movements.
             </p>
-            <p className="md:text-2xl leading-tight pt-6">
-              Ayushman completed his BTech in Computer Science from IIITD in
-              2020. He previously worked as a Software Engineer at HSBC and as a
-              Product Manager at BharatPe.
+            <p className="md:text-[22px] leading-tight pt-6">
+             Our focus is on understanding each client’s financial needs, risk profile, and investment horizon to provide suitable mutual fund solutions. With an emphasis on transparency, simplicity, and ethical practices, we aim to build long-term relationships and support investors in their wealth creation journey.
             </p>
           </div>
         </div>
