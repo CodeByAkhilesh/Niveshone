@@ -6,7 +6,7 @@ import WhatsappIcon from "../WhatsappIcon";
 
 function HeroSection() {
   return (
-    <section className="text-white md:max-h-215 w-full flex flex-col md:items-center md:w-full lg:max-w-302.5 lg:mx-auto px-5 md:px-10  overflow-hidden lg:mt- md:flex md:flex-col lg:flex lg:flex-row pt-15 md:pt-35">
+    <section className="text-white md:max-h-255 w-full flex flex-col md:items-center md:w-full lg:max-w-302.5 lg:mx-auto px-5 md:px-10  overflow-hidden lg:mt- md:flex md:flex-col lg:flex lg:flex-row pt-15 md:pt-35">
       {/* Left Text Section */}
       <div className="md:w-full lg:w-[42vw] md:h-125 h-75 sm:h-100">
         <h1 className="lg:text-6xl xl:text-6xl xl:mt-20 text-3xl sm:text-5xl lg:text-[35px] lg:mt-33 font-medium leading-tight mt-15">

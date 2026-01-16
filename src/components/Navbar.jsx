@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import Button from "./Button";
 import { NavLink } from "react-router-dom";
+import { RiCloseLargeLine, RiMenuLine } from "@remixicon/react";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="fixed z-30 w-full bg-[#00000000] backdrop-blur-xl">
-      <nav className="text-white md:max-w-302.5 md:px-10 lg:px-5 px-10 py-4 flex justify-between items-center w-full mx-auto">
+    <div className="fixed z-30 w-full ">
+      <nav className="text-white md:max-w-302.5 md:px-10 lg:px-5 px-10 py-4 flex justify-between items-center w-full mx-auto bg-[#00000000] backdrop-blur-xl">
         {/* Logo */}
         <div className="text-2xl font-bold w-20">
           <img
@@ -54,19 +55,40 @@ function Navbar() {
 
         {/* Mobile Menu Button */}
         <button className="lg:hidden text-3xl" onClick={() => setOpen(!open)}>
-          ☰
+          {/* <RiMenuLine /> */}
+          {/* <RiCloseLargeLine /> */}
+          {open ? <RiCloseLargeLine /> : <RiMenuLine />}
         </button>
-
-        {/* Mobile Menu */}
-        {open && (
-          <ul className="absolute top-16 left-0 w-full bg-[#030202a8] flex flex-col gap-4 py-6 text-center lg:hidden text-lg backdrop-blur-2xl">
-            <li className="cursor-pointer hover:text-blue-400">Home</li>
-            <li className="cursor-pointer hover:text-blue-400">About</li>
-            <li className="cursor-pointer hover:text-blue-400">Services</li>
-            <li className="cursor-pointer hover:text-blue-400">Contact</li>
-          </ul>
-        )}
       </nav>
+      {/* Mobile Menu */}
+      {open && (
+        <nav className="absolute top-20 left-0 h-screen w-full bg-[#00000080] flex flex-col gap-6 py-6 text-center lg:hidden backdrop-blur-xl text-white font-bold text-2xl">
+          <NavLink to={"/"} className="cursor-pointer focus:text-blue-400">
+            Home
+          </NavLink>
+          <NavLink
+            to={"/products"}
+            className="cursor-pointer focus:text-blue-400"
+          >
+            Products
+          </NavLink>
+          <NavLink to={"/about"} className="cursor-pointer focus:text-blue-400">
+            About
+          </NavLink>
+          <NavLink
+            to={"/calculator"}
+            className="cursor-pointer focus:text-blue-400"
+          >
+            Calculator
+          </NavLink>
+          <NavLink
+            to={"/contact"}
+            className="cursor-pointer focus:text-blue-400"
+          >
+            Contact
+          </NavLink>
+        </nav>
+      )}
     </div>
   );
 }
