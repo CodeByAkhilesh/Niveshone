@@ -22,7 +22,7 @@ function HeroSection() {
 
         {/* Button */}
         <div className="mt-8">
-          <Button btnName={"Create Account"} />
+          <Button btnName={"Create Account"} to={"https://flow.assetplus.in/client_onboarding/?advisor=687d1770f49f08bc7d72268b"} />
         </div>
       </div>
 

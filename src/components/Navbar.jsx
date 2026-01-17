@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <div className="fixed z-30 w-full ">
-      <nav className="text-white md:max-w-302.5 md:px-10 lg:px-5 px-10 py-4 flex justify-between items-center w-full mx-auto bg-[#00000000] backdrop-blur-xl">
+      <nav className="text-white md:max-w-302.5 md:px-10 lg:px-5 px-10 py-4 flex justify-between items-center w-full mx-auto bg-[#00000080] backdrop-blur-xl">
         {/* Logo */}
         <div className="text-2xl font-bold w-20">
           <img
@@ -50,7 +50,7 @@ function Navbar() {
           >
             Contact
           </NavLink>
-          <Button btnName={"Login"} />
+          <Button btnName={"Login"} to={"https://client.assetplus.in/"} />
         </nav>
 
         {/* Mobile Menu Button */}

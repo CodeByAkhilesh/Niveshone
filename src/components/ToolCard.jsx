@@ -12,7 +12,7 @@ function ToolCard({ data }) {
       />
       <h1 className="text-2xl font-bold mt-4 mb-3 text-[#268eff]">{data.headding}</h1>
       <p className="text-center text-lg">{data.pera}</p>
-      <div className='mt-10'><Button btnName={"Calculate"}/></div>
+      <div className='mt-10'><Button btnName={"Calculate"} to={data.link}/></div>
     </div>
   )
 }

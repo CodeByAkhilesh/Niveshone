@@ -59,7 +59,7 @@ function Products() {
           <h1 className='text-xl md:text-3xl text-[#268eff] font-bold tracking-tight'>Free Investment Discussion</h1>
           <h1 className='text-[34px] md:text-5xl font-bold text-white tracking-tight md:mt-3'>Start Your Investment</h1>
           <div className=' md:flex items-center flex flex-col md:flex-row gap-5 md:gap-8 mt-3 md:mt-6'>
-            <Button btnName={"Create Account"}/> <Button  btnName={"Chat On Whatsapp"}/>
+            <Button btnName={"Create Account"} to={"https://flow.assetplus.in/client_onboarding/?advisor=687d1770f49f08bc7d72268b"}/> <Button  btnName={"Chat On Whatsapp"} to={"https://wa.me/917984300929?text=Hi%20Mutual%20Fund"}/>
           </div>
         </div>
 

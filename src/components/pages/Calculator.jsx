@@ -12,31 +12,37 @@ const Calculator = () => {
         img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/66f3b701b357f2c831b07d10.svg",
         headding: "SIP Returns",
         pera: "Understand how your SIP will generate wealth.",
+        link:"https://mweb.assetplus.in/calculators/sip_returns",
       },
       {
         img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/66f3c1e23a21e2347a699cdf.svg",
         headding: "Compound Interest",
         pera: "Calculate compound interest with ease with our CI calculator.",
+        link:"https://mweb.assetplus.in/calculators/compound_interest",
       },
       {
         img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/66f3ba58ebb7b675517168b7.svg",
         headding: "Lumpsum",
         pera: "See how your lumpsum investment will grow over time.",
+        link:"https://mweb.assetplus.in/calculators/lumpsum",
       },
       {
         img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/66f3c045b357f2af55b08386.svg",
         headding: "Goal Setting",
         pera: "Calculate investment amount to reach your Financial Goals.",
+        link:"https://mweb.assetplus.in/calculators/goal_setting",
       },
       {
         img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/66f3c045b357f2e5d7b08387.svg",
         headding: "Retirement Fund",
         pera: "Calculate investment to achieve retirement life.",
+        link:"https://mweb.assetplus.in/calculators/retirement_fund",
       },
       {
         img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/66f3c04591f1804fc91ea10d.svg",
         headding: "Education",
         pera: "Plan your child's higher education by investing today.",
+        link:"https://mweb.assetplus.in/calculators/education",
       },
     ]);
 
