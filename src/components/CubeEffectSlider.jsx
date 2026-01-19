@@ -24,7 +24,7 @@ const CubeEffectSlider = () => {
       }}
       pagination={{ clickable: true }}
       autoplay={{
-        delay: 2000,
+        delay: 4000,
         disableOnInteraction: false,
       }}
       loop={true}
@@ -37,7 +37,7 @@ const CubeEffectSlider = () => {
       <SwiperSlide>
         <img
           className="h-full w-full object-cover rounded-2xl"
-          src="https://cdn.pixabay.com/photo/2018/09/22/11/34/business-3695073_1280.jpg"
+          src="src\assets\webHeroImg-1.png"
           alt="image"
         />
       </SwiperSlide>
@@ -45,7 +45,7 @@ const CubeEffectSlider = () => {
       <SwiperSlide>
         <img
           className="h-full w-full object-cover rounded-2xl"
-          src="https://cdn.pixabay.com/photo/2020/11/03/15/32/doctor-5710160_1280.jpg"
+          src="src\assets\webHeroImg-2.png"
           alt="image"
         />
       </SwiperSlide>
@@ -53,7 +53,7 @@ const CubeEffectSlider = () => {
       <SwiperSlide>
         <img
           className="h-full w-full object-cover rounded-2xl"
-          src="https://cdn.pixabay.com/photo/2020/05/01/08/29/portrait-5115894_1280.jpg"
+          src="src\assets\webHeroImg-3.png"
           alt="image"
         />
       </SwiperSlide>
