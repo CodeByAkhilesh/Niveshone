@@ -1,4 +1,4 @@
-import GoalsCard from "../GoalsCard";
+import InfoCard from "../InfoCard";
 import Button from "../Button";
 import BgLayout from "../BgLayout";
 import { useState } from "react";
@@ -45,7 +45,7 @@ const GoalsSection = () => {
 
       <div className="py-10 md:py-15 xl:py-5 flex flex-col md:flex-row flex-wrap gap-y-15 md:px-10 xl:px-15  items-center md:justify-between lg:w-205.75 xl:w-302.5 mx-auto">
         {goalsData.map((data, index) => {
-          return <GoalsCard key={index} goalsData={data} />;
+          return <InfoCard key={index} InfoData={data} />;
         })}
       </div>
       <div className="mx-auto flex items-center justify-center mt-15 w-">

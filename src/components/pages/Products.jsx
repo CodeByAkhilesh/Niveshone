@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import GoalsCard from "../GoalsCard";
 import Button from "../Button";
 import WhatsappIcon from "../WhatsappIcon";
+import InfoCard from "../InfoCard";
 
 function Products() {
-  const [goalsData, setGoalsData] = useState([
+  const [productData, setProductData] = useState([
     {
       img: "src/assets/Product-img/mutual-fund.png",
       headding: "Mutual Fund",
@@ -50,8 +50,8 @@ function Products() {
           </span>
         </h1>
         <div className="flex flex-col md:flex-row justify-center flex-wrap items-center gap-15 mt-10 md:mt-15 mb-30">
-          {goalsData.map((data, index) => {
-            return <GoalsCard key={index} goalsData={data} />;
+          {productData.map((data, index) => {
+            return <InfoCard key={index} InfoData={data} />;
           })}
         </div>
         <div className="flex flex-col items-center mb-20 px-5">
