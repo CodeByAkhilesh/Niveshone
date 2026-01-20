@@ -6,8 +6,6 @@ import Calculator from "../components/pages/Calculator";
 import HomePage from "../components/pages/HomePage";
 import Products from "../components/pages/Products";
 
-
-
 const AppRoutes = () => {
   return (
     <Routes>

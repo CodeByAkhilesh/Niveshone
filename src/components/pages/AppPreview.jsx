@@ -27,7 +27,12 @@ const AppPreviwe = () => {
               From the first investment to complete financial independence,
               experience guidance and growth with one app.
             </p>
-            <Button btnName={"FREE Consultation"} to={"https://flow.assetplus.in/client_onboarding/?advisor=687d1770f49f08bc7d72268b"} />
+            <Button
+              btnName={"FREE Consultation"}
+              to={
+                "https://flow.assetplus.in/client_onboarding/?advisor=687d1770f49f08bc7d72268b"
+              }
+            />
           </div>
         </div>
       </div>

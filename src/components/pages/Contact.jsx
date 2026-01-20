@@ -41,7 +41,10 @@ const Contact = () => {
               Niveshonefs@gmail.com
             </h4>
             <div className="pt-5 mx-auto lg:mx-0">
-              <Button btnName={"Chat on whatsapp"} to={"https://wa.me/917984300929?text=Hi%20Mutual%20Fund"} />
+              <Button
+                btnName={"Chat on whatsapp"}
+                to={"https://wa.me/917984300929?text=Hi%20Mutual%20Fund"}
+              />
             </div>
           </div>
         </div>
@@ -74,7 +77,7 @@ const Contact = () => {
         </div>
       </div>
       {/* WhatsApp Floating Icon */}
-      <WhatsappIcon/>
+      <WhatsappIcon />
       <Footer />
     </div>
   );

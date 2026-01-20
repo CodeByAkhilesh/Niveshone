@@ -19,7 +19,8 @@
 }
 
 @keyframes floatUpDown {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px);
   }
   50% {
@@ -34,7 +35,6 @@
     }
   }
 }
-
 
 /* Width of scrollbar */
 ::-webkit-scrollbar {
@@ -59,11 +59,7 @@
 
 /* Thumb — bright gradient on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(
-    to top,
-    #3aab50,
-    #268eff
-  );
+  background: linear-gradient(to top, #3aab50, #268eff);
 }
 
 /* Firefox support */

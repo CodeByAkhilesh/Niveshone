@@ -49,7 +49,12 @@ const GoalsSection = () => {
         })}
       </div>
       <div className="mx-auto flex items-center justify-center mt-15 w-">
-        <Button btnName={"START A SIP"} to={"https://flow.assetplus.in/client_onboarding/?advisor=687d1770f49f08bc7d72268b"} />
+        <Button
+          btnName={"START A SIP"}
+          to={
+            "https://flow.assetplus.in/client_onboarding/?advisor=687d1770f49f08bc7d72268b"
+          }
+        />
       </div>
       <div className="flex flex-col relative h-48 w-[90vw] md:w-175.75 lg:w-239.5 xl:w-302.5 mx-auto mt-20 md:mt-20">
         <BgLayout

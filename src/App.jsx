@@ -5,7 +5,7 @@ import HomePage from "./components/pages/HomePage";
 function App() {
   return (
     <div className="main-scroll bg-black min-h-screen ">
-     <AppRoutes/>
+      <AppRoutes />
     </div>
   );
 }
