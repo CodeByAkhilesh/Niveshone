@@ -1,8 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
-import BgLayout from "../BgLayout";
-import Slider from "../Slider";
+import GradientBackground from "../ui/GradientBackground";
+import Slider from "../ui/Slider";
 
 const amcLogos = [
   "src/assets/AMCs-img/bandhan.png",
@@ -30,7 +30,7 @@ const OurPartnerAMCs = () => {
         </span>
       </h1>
       <div className="w-77.5 h-97.5 md:w-175.75 lg:w-239.5 bg-amber-300 xl:w-302.5 rounded-2xl lg:h-80 items-center flex z-10 relative">
-        <BgLayout content={<Slider />} />
+        <GradientBackground content={<Slider />} />
       </div>
     </div>
   );

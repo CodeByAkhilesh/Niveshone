@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
-import WhatsappIcon from "../WhatsappIcon";
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer" ;
+import WhatsappIcon from "../components/ui/WhatsappIcon";
 
 const AboutUs = () => {
   return (

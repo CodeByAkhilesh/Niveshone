@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FaqCard from "./FaqCard";
+import FaqCard from "../ui/FaqCard";
 
 const FaqSection = () => {
   const [faqs, setFaqs] = useState([

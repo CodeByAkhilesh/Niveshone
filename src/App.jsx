@@ -1,6 +1,5 @@
 import React from "react";
 import AppRoutes from "./routes/AppRoutes";
-import HomePage from "./components/pages/HomePage";
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 
-const BgLayout = ({ content }) => {
+const GradientBackground = ({ content }) => {
   return (
     <div className=" text-2xl md:text-6xl text-white h-full w-full">
       <div className="bg-linear-to-r from-[#3aab50] to-[#268eff] h-full w-full rounded-2xl relative z-10 text-black tracking-tighter text-center md:text-5xl flex items-center justify-center font-black">
@@ -11,4 +11,4 @@ const BgLayout = ({ content }) => {
   );
 };
 
-export default BgLayout;
+export default GradientBackground;

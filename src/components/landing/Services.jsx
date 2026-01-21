@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ServiceCard from "../ServiceCard";
-import BgLayout from "../BgLayout";
+import ServiceCard from "../ui/ServiceCard";
+import GradientBackground from "../ui/GradientBackground";
 
 const Services = () => {
   const [serviceContent, setServiceContent] = useState([
@@ -60,7 +60,7 @@ const Services = () => {
         </div>
       </div>
       <div className="flex flex-col relative h-48 w-[90vw] md:w-175.75 lg:w-239.5 xl:w-302.5 mx-auto mt-20 md:mt-20">
-        <BgLayout
+        <GradientBackground
           content={"Start SIP with Proper Mutual Fund Planning Support"}
         />
       </div>

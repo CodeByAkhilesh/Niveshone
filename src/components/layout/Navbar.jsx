@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Button from "./Button";
+import Button from "../ui/Button";
 import { NavLink } from "react-router-dom";
 import { RiCloseLargeLine, RiMenuLine } from "@remixicon/react";
 
@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <div className="fixed z-30 w-full ">
-      <nav className="text-white md:max-w-302.5 md:px-10 lg:px-5 px-10 py-4 flex justify-between items-center w-full mx-auto bg-[#00000080] backdrop-blur-xl">
+      <nav className="text-white md:max-w-302.5 md:px-10 lg:px-5 px-6 py-4 flex justify-between items-center w-full mx-auto bg-[#00000080] backdrop-blur-xl">
         {/* Logo */}
         <div className="text-2xl font-bold w-20">
           <img

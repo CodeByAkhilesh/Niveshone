@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
-import Button from "../Button";
-import ToolCard from "../ToolCard";
-import WhatsappIcon from "../WhatsappIcon";
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
+import ToolCard from "../components/ui/ToolCard";
+import WhatsappIcon from "../components/ui/WhatsappIcon";
 
 const Calculator = () => {
   const [toolsData, setToolsData] = useState([

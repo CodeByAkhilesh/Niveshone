@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
-import Button from "../Button";
-import WhatsappIcon from "../WhatsappIcon";
-import InfoCard from "../InfoCard";
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
+import Button from "../components/ui/Button";
+import WhatsappIcon from "../components/ui/WhatsappIcon";
+import InfoCard from "../components/ui/InfoCard";
 
 function Products() {
   const [productData, setProductData] = useState([

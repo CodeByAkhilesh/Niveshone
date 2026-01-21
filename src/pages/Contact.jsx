@@ -1,9 +1,9 @@
 import React from "react";
-import Button from "../Button";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
+import Button from "../components/ui/Button";
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
 import { RiMailFill, RiPhoneFill } from "@remixicon/react";
-import WhatsappIcon from "../WhatsappIcon";
+import WhatsappIcon from "../components/ui/WhatsappIcon";
 
 const Contact = () => {
   return (
