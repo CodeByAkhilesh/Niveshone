@@ -55,14 +55,13 @@ function Navbar() {
 
         {/* Mobile Menu Button */}
         <button className="lg:hidden text-3xl" onClick={() => setOpen(!open)}>
-          {/* <RiMenuLine /> */}
-          {/* <RiCloseLargeLine /> */}
           {open ? <RiCloseLargeLine /> : <RiMenuLine />}
         </button>
       </nav>
       {/* Mobile Menu */}
       {open && (
-        <nav className="absolute top-20 left-0 h-screen w-full bg-[#00000080] flex flex-col gap-6 py-6 text-center lg:hidden backdrop-blur-xl text-white font-bold text-2xl">
+        <div className="absolute top-20 left-0 h-screen w-full bg-[#00000080] text-center lg:hidden backdrop-blur-xl text-white font-bold text-2xl">
+        <nav className="flex flex-col gap-6 py-6 w-fit mx-auto">
           <NavLink to={"/"} className="cursor-pointer focus:text-blue-400">
             Home
           </NavLink>
@@ -87,7 +86,9 @@ function Navbar() {
           >
             Contact
           </NavLink>
+          <Button btnName={"Login"} to={"https://client.assetplus.in/"}/>
         </nav>
+        </div>
       )}
     </div>
   );
