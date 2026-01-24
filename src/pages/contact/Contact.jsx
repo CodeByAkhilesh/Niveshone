@@ -1,9 +1,10 @@
 import React from "react";
-import Button from "../components/ui/Button";
-import Navbar from "../components/layout/Navbar";
-import Footer from "../components/layout/Footer";
+import Button from "../../components/ui/Button";
+import Navbar from "../../components/layout/Navbar";
+import Footer from "../../components/layout/Footer";
 import { RiMailFill, RiPhoneFill } from "@remixicon/react";
-import WhatsappIcon from "../components/ui/WhatsappIcon";
+import WhatsappIcon from "../../components/ui/WhatsappIcon";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
@@ -49,32 +50,7 @@ const Contact = () => {
           </div>
         </div>
         {/* contect us form  */}
-        <div className="border w-full md:w-140 lg:w-full border-[#268eff] rounded-2xl mt-25 mb-20 mx-auto">
-          <h1 className="text-3xl lg:text-4xl text-[#268eff] font-bold text-center mt-15">
-            Leave a Message
-          </h1>
-          <form
-            action="#"
-            className="w-full px-9 lg:px-0 lg:w-1/2 mx-auto flex flex-col gap-10 mt-8 mb-20"
-          >
-            <input
-              className="border-b border-white text-gray-400 font-medium text-xl outline-none"
-              type="text"
-              placeholder="Full Name"
-            />
-            <input
-              className="border-b border-white text-gray-400 font-medium text-xl outline-none"
-              type="text"
-              placeholder="Email"
-            />
-            <textarea
-              className="border-b border-white text-gray-400 font-medium text-xl text-wrap outline-none"
-              type="text"
-              placeholder="Message"
-            />
-            <Button btnName={"Submit"} />
-          </form>
-        </div>
+        <ContactForm/>
       </div>
       {/* WhatsApp Floating Icon */}
       <WhatsappIcon />
