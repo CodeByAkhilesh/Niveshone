@@ -8,27 +8,20 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    const serviceId = "service_wzmuqos"
-    const templateId = "template_9t244ye"
-    const publicKey = "PcniQDd_hRyEI1bnK"
+    const serviceId = "service_wzmuqos";
+    const templateId = "template_9t244ye";
+    const publicKey = "PcniQDd_hRyEI1bnK";
 
-    emailjs
-      .sendForm(
-        serviceId,
-        templateId,
-        formRef.current,
-        publicKey,
-      )
-      .then(
-        () => {
-          alert("Message sent successfully!");
-          formRef.current.reset();
-        },
-        (error) => {
-          alert("Something went wrong!");
-          console.error(error);
-        },
-      );
+    emailjs.sendForm(serviceId, templateId, formRef.current, publicKey).then(
+      () => {
+        alert("Message sent successfully!");
+        formRef.current.reset();
+      },
+      (error) => {
+        alert("Something went wrong!");
+        console.error(error);
+      },
+    );
   };
 
   return (
