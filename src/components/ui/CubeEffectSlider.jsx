@@ -1,5 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import sliderImg1 from "../../assets/sliderImages/webHeroImg-1.webp";
+import sliderImg2 from "../../assets/sliderImages/webHeroImg-2.webp";
+import sliderImg3 from "../../assets/sliderImages/webHeroImg-3.webp";
 
 // Swiper CSS
 import "swiper/css";
@@ -37,24 +40,27 @@ const CubeEffectSlider = () => {
       <SwiperSlide>
         <img
           className="h-full w-full object-cover rounded-2xl"
-          src="src\assets\webHeroImg-1.png"
-          alt="image"
+          src={sliderImg1}
+          alt="Nivesh One Financial Services providing mutual fund investment and SIP planning"
+          loading="lazy"
         />
       </SwiperSlide>
 
       <SwiperSlide>
         <img
           className="h-full w-full object-cover rounded-2xl"
-          src="src\assets\webHeroImg-2.png"
-          alt="image"
+          src={sliderImg2}
+          alt="Professional mutual fund advisor analyzing investment growth and portfolio performance"
+          loading="lazy"
         />
       </SwiperSlide>
 
       <SwiperSlide>
         <img
           className="h-full w-full object-cover rounded-2xl"
-          src="src\assets\webHeroImg-3.png"
-          alt="image"
+          src={sliderImg3}
+          alt="Happy couple planning long term financial security through mutual fund investments"
+          loading="lazy"
         />
       </SwiperSlide>
     </Swiper>
