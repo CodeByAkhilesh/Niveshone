@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer" ;
 import WhatsappIcon from "../components/ui/WhatsappIcon";
+import founderImg from "../assets/founder-img.webp"
 
 const AboutUs = () => {
   return (
@@ -19,8 +20,9 @@ const AboutUs = () => {
           <div className="h-full w-full border border-[#268eff] top-0 left-0 absolute rounded-2xl overflow-hidden">
             <img
               className="h-full w-full object-cover"
-              src="\src\assets\founder-img.png"
-              alt=""
+              src={founderImg}
+              loading="lazy"
+              alt="Founder of Nivesh One Financial Services – trusted mutual fund advisor"
             />
           </div>
         </div>

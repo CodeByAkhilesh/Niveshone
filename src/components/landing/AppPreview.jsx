@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../ui/Button";
+import previewImg from "../../assets/mobile-previwe.webp"
 
 const AppPreviwe = () => {
   return (
@@ -11,8 +12,8 @@ const AppPreviwe = () => {
         <div className="left-content md:w-1/2 lg:w-[50%] flex justify-center">
           <img
             className="h-80 md:h-120 lg:h-145"
-            src="src\assets\mobile-previwe.webp"
-            alt=""
+            src={previewImg}
+            alt="100% digital and paperless investment process"
           />
         </div>
         <div className="right-content px-5 mt-10 xl:w-[50%] text-white md:flex md:items-center">
