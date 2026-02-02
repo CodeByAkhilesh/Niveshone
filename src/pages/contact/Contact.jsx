@@ -11,7 +11,7 @@ const Contact = () => {
     <div>
       <Navbar />
       <div className="px-3 lg:px-20 xl:px-0 xl:w-280 mx-auto pt-0.5 min-h-screen">
-        {/* page main headding */}
+        {/* page main heading */}
         <h1 className="text-3xl md:text-4xl mx-5 xl:w-302.5 lg:text-6xl font-bold text-white mb-10 lg:mb-20 mt-25 md:mt-35">
           Get in Touch{" "}
           <span className="bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">

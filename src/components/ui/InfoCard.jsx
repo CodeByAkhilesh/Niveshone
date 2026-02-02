@@ -8,8 +8,8 @@ const InfoCard = ({ InfoData }) => {
         src={InfoData.img}
         alt="image"
       />
-      <h1 className="text-2xl font-bold mt-6 mb-3">{InfoData.headding}</h1>
-      <p className="text-center text-lg">{InfoData.pera}</p>
+      <h1 className="text-2xl font-bold mt-6 mb-3">{InfoData.heading}</h1>
+      <p className="text-center text-lg">{InfoData.para}</p>
     </div>
   );
 };

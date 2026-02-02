@@ -9,33 +9,33 @@ function Products() {
   const [productData, setProductData] = useState([
     {
       img: "src/assets/Product-img/mutual-fund.png",
-      headding: "Mutual Fund",
-      pera: "Mutual funds are smart investment options designed to build long-term wealth and achieve financial goals efficiently.",
+      heading: "Mutual Fund",
+      para: "Mutual funds are smart investment options designed to build long-term wealth and achieve financial goals efficiently.",
     },
     {
       img: "src/assets/Product-img/NFOs.png",
-      headding: "NFO",
-      pera: "New Fund Offer allows investors to invest early in newly launched mutual fund schemes at initial prices.",
+      heading: "NFO",
+      para: "New Fund Offer allows investors to invest early in newly launched mutual fund schemes at initial prices.",
     },
     {
       img: "src/assets/Product-img/SIP.png",
-      headding: "SIP",
-      pera: "Systematic Investment Plan allows investors to invest a fixed amount regularly in mutual funds for disciplined wealth growth.",
+      heading: "SIP",
+      para: "Systematic Investment Plan allows investors to invest a fixed amount regularly in mutual funds for disciplined wealth growth.",
     },
     {
       img: "src/assets/Product-img/SWP.png",
-      headding: "SWP",
-      pera: "Systematic Withdrawal Plan lets investors withdraw a fixed amount regularly from their mutual fund investments.",
+      heading: "SWP",
+      para: "Systematic Withdrawal Plan lets investors withdraw a fixed amount regularly from their mutual fund investments.",
     },
     {
       img: "src/assets/Product-img/LAMF.png",
-      headding: "Loan Against MF",
-      pera: "Investors can avail a loan by pledging their mutual fund units, without redeeming their investments.",
+      heading: "Loan Against MF",
+      para: "Investors can avail a loan by pledging their mutual fund units, without redeeming their investments.",
     },
     {
       img: "src/assets/Product-img/FD.png",
-      headding: "Fixed Deposits",
-      pera: "Corporate Fixed Deposits are investment options offering fixed returns over a period, issued by companies.",
+      heading: "Fixed Deposits",
+      para: "Corporate Fixed Deposits are investment options offering fixed returns over a period, issued by companies.",
     },
   ]);
 

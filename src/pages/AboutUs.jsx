@@ -16,7 +16,7 @@ const AboutUs = () => {
       <main>
         <section className="min-h-screen w-full md:pt-35 md:pb-25 xl:w-302.5 mx-auto lg:px-10 flex flex-col lg:flex-row md:justify-between">
 
-          {/* Mobile Headding  */}
+          {/* Mobile Heading  */}
           <header className="lg:hidden">
             <h1 className="text-3xl w-full font-bold text-whitentracking-tighter mt-30 md:pb-10 md:mt-0 text-white px-5 md:w-165 mx-auto">
               Meet{" "}
@@ -43,7 +43,7 @@ const AboutUs = () => {
           <article className="right-content px-10 h-140 md:w-190 lg:w-165 shrink-0 text-white flex items-center mx-auto">
             <div className="md:pl-10 w-full">
 
-              {/* Desktop Headding  */}
+              {/* Desktop Heading  */}
               <header className="hidden lg:block">
                 <h1 className="text-4xl w-full font-bold text-whitentracking-tighter pb-7">
                   Meet{" "}

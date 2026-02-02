@@ -3,69 +3,103 @@ import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import ToolCard from "../components/ui/ToolCard";
 import WhatsappIcon from "../components/ui/WhatsappIcon";
+import sipIcon from "../assets/calculator-svgs/sip-return.svg";
+import compoundIcon from "../assets/calculator-svgs/compound-intrest.svg";
+import lumpsumIcon from "../assets/calculator-svgs/lumpsum.svg";
+import goalIcon from "../assets/calculator-svgs/goal-setting.svg";
+import retirementIcon from "../assets/calculator-svgs/retirement-fund.svg";
+import educationIcon from "../assets/calculator-svgs/education.svg";
 
 const Calculator = () => {
-  const [toolsData, setToolsData] = useState([
+  // Calculator Content Data
+  const toolsData = [
     {
-      img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/66f3b701b357f2c831b07d10.svg",
-      headding: "SIP Returns",
-      pera: "Understand how your SIP will generate wealth.",
+      id: 1,
+      img: sipIcon,
+      alt: "SIP return calculator",
+      heading: "SIP Returns",
+      para: "Understand how your SIP will generate wealth.",
       link: "https://mweb.assetplus.in/calculators/sip_returns",
     },
     {
-      img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/66f3c1e23a21e2347a699cdf.svg",
-      headding: "Compound Interest",
-      pera: "Calculate compound interest with ease with our CI calculator.",
+      id: 2,
+      img: compoundIcon,
+      alt: "Compound interest calculator",
+      heading: "Compound Interest",
+      para: "Calculate compound interest with ease with our CI calculator.",
       link: "https://mweb.assetplus.in/calculators/compound_interest",
     },
     {
-      img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/66f3ba58ebb7b675517168b7.svg",
-      headding: "Lumpsum",
-      pera: "See how your lumpsum investment will grow over time.",
+      id: 3,
+      img: lumpsumIcon,
+      alt: "Lumpsum investment calculator",
+      heading: "Lumpsum",
+      para: "See how your lumpsum investment will grow over time.",
       link: "https://mweb.assetplus.in/calculators/lumpsum",
     },
     {
-      img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/66f3c045b357f2af55b08386.svg",
-      headding: "Goal Setting",
-      pera: "Calculate investment amount to reach your Financial Goals.",
+      id: 4,
+      img: goalIcon,
+      alt: "Goal setting investment calculator",
+      heading: "Goal Setting",
+      para: "Calculate investment amount to reach your Financial Goals.",
       link: "https://mweb.assetplus.in/calculators/goal_setting",
     },
     {
-      img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/66f3c045b357f2e5d7b08387.svg",
-      headding: "Retirement Fund",
-      pera: "Calculate investment to achieve retirement life.",
+      id: 5,
+      img: retirementIcon,
+      alt: "Retirement fund calculator",
+      heading: "Retirement Fund",
+      para: "Calculate investment to achieve retirement life.",
       link: "https://mweb.assetplus.in/calculators/retirement_fund",
     },
     {
-      img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/66f3c04591f1804fc91ea10d.svg",
-      headding: "Education",
-      pera: "Plan your child's higher education by investing today.",
+      id: 6,
+      img: educationIcon,
+      alt: "Education fund calculator",
+      heading: "Education",
+      para: "Plan your child's higher education by investing today.",
       link: "https://mweb.assetplus.in/calculators/education",
     },
-  ]);
+  ];
 
   return (
-    <div className="">
-      <Navbar />
-      <div className="lg:w-205.75 xl:w-302.5 mx-auto pt-10 lg:py-10 md:px-10 xl:px-15">
-        <h1 className="text-3xl md:text-4xl mx-8 md:mx-0 xl:w-302.5 lg:text-6xl font-bold text-white md:mb-0  lg:mb-2 mt-20 md:mt-30 tracking-tighter">
-          Financial Tools To{" "}
-          <span className="bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
-            Plan Your Goals.
-          </span>
-        </h1>
-      </div>
-      <div className="min-h-screen">
-        <div className="py-10 md:py-15 xl:py-5 flex flex-col md:flex-row flex-wrap gap-y-15 md:px-10 xl:px-15  items-center md:justify-between lg:w-205.75 xl:w-302.5 mx-auto mb-20">
-          {toolsData.map((toolData, index) => {
-            return <ToolCard key={index} data={toolData} />;
-          })}
-        </div>
-      </div>
+    <>
+      {/* Site Header  */}
+      <header>
+        <Navbar />
+      </header>
+
+      {/* Main Content  */}
+      <main>
+        <section>
+          {/* Heading  */}
+          <header className="lg:w-205.75 xl:w-302.5 mx-auto pt-10 lg:py-10 md:px-10 xl:px-15">
+            <h1 className="text-3xl md:text-4xl mx-8 md:mx-0 lg:text-6xl font-bold text-white md:mb-0  lg:mb-2 mt-20 md:mt-30 tracking-tighter">
+              Financial Tools To{" "}
+              <span className="bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
+                Plan Your Goals.
+              </span>
+            </h1>
+          </header>
+
+          {/* Calculator Card Wrapper  */}
+          <div className="py-10 md:py-15 xl:py-5 flex flex-col md:flex-row flex-wrap gap-y-15 md:px-10 xl:px-15  items-center md:justify-between lg:w-205.75 xl:w-302.5 mx-auto mb-20">
+            {toolsData.map((toolData, index) => {
+              return <ToolCard key={toolData.id} data={toolData} />;
+            })}
+          </div>
+        </section>
+      </main>
+
       {/* WhatsApp Floating Icon */}
       <WhatsappIcon />
-      <Footer />
-    </div>
+
+      {/* Site Footer  */}
+      <footer>
+        <Footer />
+      </footer>
+    </>
   );
 };
 
