@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import ToolCard from "../components/ui/ToolCard";
-import WhatsappIcon from "../components/ui/WhatsappIcon";
 import sipIcon from "../assets/calculator-svgs/sip-return.svg";
 import compoundIcon from "../assets/calculator-svgs/compound-intrest.svg";
 import lumpsumIcon from "../assets/calculator-svgs/lumpsum.svg";
@@ -91,9 +90,6 @@ const Calculator = () => {
           </div>
         </section>
       </main>
-
-      {/* WhatsApp Floating Icon */}
-      <WhatsappIcon />
 
       {/* Site Footer  */}
       <footer>

@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
-import WhatsappIcon from "../components/ui/WhatsappIcon";
 import founderImg from "../assets/founder-img.webp";
 
 const AboutUs = () => {
@@ -77,9 +76,6 @@ const AboutUs = () => {
           </article>
         </section>
       </main>
-
-      {/* WhatsApp Floating Icon */}
-      <WhatsappIcon />
       
       {/* Site Footer  */}
       <footer>

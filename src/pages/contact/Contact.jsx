@@ -3,7 +3,6 @@ import Button from "../../components/ui/Button";
 import Navbar from "../../components/layout/Navbar";
 import Footer from "../../components/layout/Footer";
 import { RiMailFill, RiPhoneFill } from "@remixicon/react";
-import WhatsappIcon from "../../components/ui/WhatsappIcon";
 import ContactForm from "./ContactForm";
 import contectUsImg from "../../assets/contect_us.webp"
 
@@ -69,8 +68,6 @@ const Contact = () => {
           <ContactForm />
         </section>
 
-        {/* WhatsApp Floating Icon */}
-        <WhatsappIcon />
       </main>
 
       {/* Site Footer  */}

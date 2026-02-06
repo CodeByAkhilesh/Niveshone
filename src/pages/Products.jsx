@@ -2,7 +2,6 @@ import React  from "react";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import Button from "../components/ui/Button";
-import WhatsappIcon from "../components/ui/WhatsappIcon";
 import InfoCard from "../components/ui/InfoCard";
 import mutualFundIcon from "../assets/Product-img/mutual-fund.svg";
 import nfoIcon from "../assets/Product-img/NFOs.svg";
@@ -103,9 +102,11 @@ function Products() {
           </article>
         </section>
       </main>
-      {/* WhatsApp Floating Icon */}
-      <WhatsappIcon />
+
+      {/* Site Footer  */}
+      <footer>
       <Footer />
+      </footer>
     </>
   );
 }
