@@ -56,7 +56,7 @@ const GoalsSection = () => {
           }
         />
       </div>
-      <div className="flex flex-col relative h-48 w-[90vw] md:w-175.75 lg:w-239.5 xl:w-302.5 mx-auto mt-20 md:mt-20">
+      <div className="flex flex-col relative h-48 w-[90vw] md:w-175.75 lg:w-239.5 xl:w-302.5 mx-auto mt-20 md:mt-20 text-2xl md:text-5xl">
         <GradientBackground
           content={"Committed To Helping You Achieve Financial Freedom"}
         />
