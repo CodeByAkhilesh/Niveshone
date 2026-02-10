@@ -1,41 +1,58 @@
 import InfoCard from "../ui/InfoCard";
 import Button from "../ui/Button";
 import GradientBackground from "../ui/GradientBackground";
-import { useState } from "react";
+import houseIcon from "../../assets/goals_img/house_icon.webp"
+import dreamCarIcon from "../../assets/goals_img/dream_car_icon.webp"
+import vacation_icon from "../../assets/goals_img/vacation_icon.webp"
+import kidsEducationIcon from "../../assets/goals_img/kids_education.webp"
+import retirementIcon from "../../assets/goals_img/retirement_icon.webp"
+import childrensWeddingIcon from "../../assets/goals_img/childrens_wedding_icon.webp"
 
 const GoalsSection = () => {
-  const [goalsData, setGoalsData] = useState([
+  const goalsData = [
     {
-      img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_900/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/31bfa3fa-ac70-4297-8bc4-c563bf6771c7.png",
+      id: "own_house",
+      img: houseIcon,
+      alt: "Planning investment for buying own house through mutual fund goals",
       heading: "Own House",
       para: "Have a dream of owning your own house? Achieve that goal fast with the right financial plan.",
     },
     {
-      img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/bc53ae9a-2e80-4062-8d32-f8333bf9f391.png",
+      id: "dream_car",
+      img: dreamCarIcon,
+      alt: "Investment planning for buying a dream car through goal-based mutual fund investing",
       heading: "Dream Car",
       para: "Desiring to get your dream car? Invest in the right places to get your dream car sooner.",
     },
     {
-      img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/b50a54f9-647d-40c0-9e90-85d46d1c2787.png",
+      id: "vacation",
+      img: vacation_icon,
+      alt: "Vacation goal planning through disciplined mutual fund investments",
       heading: "Vacation",
       para: "Vacation doesn't have to be just a dream. Enjoy your vacation without breaking your savings.",
     },
     {
-      img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/7181b4b5-7927-41e2-865f-c8acde09f7f3.png",
+      id: "kids_education",
+      img: kidsEducationIcon,
+      alt: "Children’s education goal planning through mutual fund investments",
       heading: "Kids' Education",
       para: "We all want the best for our Kids. Finances shouldn't stop them from pursuing their career.",
     },
     {
-      img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/e19f04f6-d6bf-4809-bd0d-f240f152f7cc.png",
+      id: "retirement",
+      img: retirementIcon,
+      alt: "Retirement planning through long-term mutual fund investments",
       heading: "Happy Retirement",
       para: "Getting close to retirement age? Plan your finances accordingly to retire early and happily.",
     },
     {
-      img: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/eSL9Lyo3BED9dy8wd3Pb/media/afbc5965-c1ce-4c1b-bfb1-c440ef1ada4b.png",
+      id: "childrens_wedding",
+      img: childrensWeddingIcon,
+      alt: "Children’s wedding financial planning through long-term investments",
       heading: "Childrens' Wedding",
       para: "With the right financial plan, you don't have to sacrifice on the budget for your kids' wedding.",
     },
-  ]);
+  ];
 
   return (
     <div className="">
@@ -44,8 +61,8 @@ const GoalsSection = () => {
       </h1>
 
       <div className="py-10 md:py-15 xl:py-5 flex flex-col md:flex-row flex-wrap gap-y-15 md:px-10 xl:px-15  items-center md:justify-between lg:w-205.75 xl:w-302.5 mx-auto">
-        {goalsData.map((data, index) => {
-          return <InfoCard key={index} InfoData={data} />;
+        {goalsData.map((data) => {
+          return <InfoCard key={data.id} InfoData={data} />;
         })}
       </div>
       <div className="mx-auto flex items-center justify-center mt-15 w-">

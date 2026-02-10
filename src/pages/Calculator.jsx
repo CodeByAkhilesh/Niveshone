@@ -13,7 +13,7 @@ const Calculator = () => {
   // Calculator Content Data
   const toolsData = [
     {
-      id: 1,
+      id: "sip_calculator",
       img: sipIcon,
       alt: "SIP return calculator",
       heading: "SIP Returns",
@@ -21,7 +21,7 @@ const Calculator = () => {
       link: "https://mweb.assetplus.in/calculators/sip_returns",
     },
     {
-      id: 2,
+      id: "compound_interest_calculator",
       img: compoundIcon,
       alt: "Compound interest calculator",
       heading: "Compound Interest",
@@ -29,7 +29,7 @@ const Calculator = () => {
       link: "https://mweb.assetplus.in/calculators/compound_interest",
     },
     {
-      id: 3,
+      id: "lumpsum_calculator",
       img: lumpsumIcon,
       alt: "Lumpsum investment calculator",
       heading: "Lumpsum",
@@ -37,7 +37,7 @@ const Calculator = () => {
       link: "https://mweb.assetplus.in/calculators/lumpsum",
     },
     {
-      id: 4,
+      id: "goal_calculator",
       img: goalIcon,
       alt: "Goal setting investment calculator",
       heading: "Goal Setting",
@@ -45,7 +45,7 @@ const Calculator = () => {
       link: "https://mweb.assetplus.in/calculators/goal_setting",
     },
     {
-      id: 5,
+      id: "retirement_calculator",
       img: retirementIcon,
       alt: "Retirement fund calculator",
       heading: "Retirement Fund",
@@ -53,7 +53,7 @@ const Calculator = () => {
       link: "https://mweb.assetplus.in/calculators/retirement_fund",
     },
     {
-      id: 6,
+      id: "education_calculator",
       img: educationIcon,
       alt: "Education fund calculator",
       heading: "Education",

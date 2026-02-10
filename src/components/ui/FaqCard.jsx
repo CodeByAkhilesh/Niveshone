@@ -3,7 +3,7 @@ import { RiArrowDownSLine } from "@remixicon/react";
 
 const FaqCard = ({ faqs, i, handleClick, activeIndex }) => {
   return (
-    <div
+    <article
       onClick={() => handleClick(i)}
       className={`w-[49%] ${
         activeIndex == i ? "max-h-80" : "max-h-23 xl:max-h-20"
@@ -22,7 +22,7 @@ const FaqCard = ({ faqs, i, handleClick, activeIndex }) => {
         </span>
       </div>
       <p className="text-white mt-5">{faqs.answer}</p>
-    </div>
+    </article>
   );
 };
 
