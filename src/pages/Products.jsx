@@ -80,7 +80,7 @@ function Products() {
           {/* Products Card Wrapper  */}
           <div className="flex flex-col md:flex-row justify-center flex-wrap items-center gap-15 mt-10 md:mt-15 mb-30">
             {productData.map((data) => {
-              return <InfoCard key={data.id} InfoData={data} />;
+              return <InfoCard key={data.id} cardData={data} />;
             })}
           </div>
 

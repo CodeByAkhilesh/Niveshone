@@ -1,19 +1,19 @@
 import InfoCard from "../ui/InfoCard";
 import Button from "../ui/Button";
 import GradientBackground from "../ui/GradientBackground";
-import houseIcon from "../../assets/goals_img/house_icon.webp"
-import dreamCarIcon from "../../assets/goals_img/dream_car_icon.webp"
-import vacation_icon from "../../assets/goals_img/vacation_icon.webp"
-import kidsEducationIcon from "../../assets/goals_img/kids_education.webp"
-import retirementIcon from "../../assets/goals_img/retirement_icon.webp"
-import childrensWeddingIcon from "../../assets/goals_img/childrens_wedding_icon.webp"
+import houseIcon from "../../assets/goals_img/house_icon.webp";
+import dreamCarIcon from "../../assets/goals_img/dream_car_icon.webp";
+import vacation_icon from "../../assets/goals_img/vacation_icon.webp";
+import kidsEducationIcon from "../../assets/goals_img/kids_education.webp";
+import retirementIcon from "../../assets/goals_img/retirement_icon.webp";
+import childrensWeddingIcon from "../../assets/goals_img/childrens_wedding_icon.webp";
 
 const GoalsSection = () => {
   const goalsData = [
     {
       id: "own_house",
       img: houseIcon,
-      alt: "Planning investment for buying own house through mutual fund goals",
+      alt: "Own house goal planning through mutual fund investments",
       heading: "Own House",
       para: "Have a dream of owning your own house? Achieve that goal fast with the right financial plan.",
     },
@@ -36,7 +36,7 @@ const GoalsSection = () => {
       img: kidsEducationIcon,
       alt: "Children’s education goal planning through mutual fund investments",
       heading: "Kids' Education",
-      para: "We all want the best for our Kids. Finances shouldn't stop them from pursuing their career.",
+      para: "We all want the best for our children. Finances shouldn't stop them from pursuing their career.",
     },
     {
       id: "retirement",
@@ -49,23 +49,32 @@ const GoalsSection = () => {
       id: "childrens_wedding",
       img: childrensWeddingIcon,
       alt: "Children’s wedding financial planning through long-term investments",
-      heading: "Childrens' Wedding",
+      heading: "Children's Wedding",
       para: "With the right financial plan, you don't have to sacrifice on the budget for your kids' wedding.",
     },
   ];
 
   return (
-    <div className="">
-      <h1 className="text-white text-center text-3xl md:text-5xl tracking-tighter font-semibold mt-20 mb-10 px-5">
-        Every Goal needs a first step in the Right Direction!
-      </h1>
+    <section id="financial-goals">
+      {/* Section Heading  */}
+      <header>
+        <h2 className="text-white text-center text-3xl md:text-5xl tracking-tighter font-semibold mt-20 mb-10 px-5">
+          Every Goal Needs a First Step in the Right Direction
+        </h2>
+      </header>
 
-      <div className="py-10 md:py-15 xl:py-5 flex flex-col md:flex-row flex-wrap gap-y-15 md:px-10 xl:px-15  items-center md:justify-between lg:w-205.75 xl:w-302.5 mx-auto">
+    {/* Goals Card Wrapper  */}
+      <ul className="py-10 md:py-15 xl:py-5 flex flex-col md:flex-row flex-wrap gap-y-15 md:px-10 xl:px-15  items-center md:justify-between lg:w-205.75 xl:w-302.5 mx-auto">
         {goalsData.map((data) => {
-          return <InfoCard key={data.id} InfoData={data} />;
+          return (
+            <li key={data.id}>
+              <InfoCard cardData={data} />
+            </li>
+          );
         })}
-      </div>
-      <div className="mx-auto flex items-center justify-center mt-15 w-">
+      </ul>
+
+      <div className="text-center mt-15">
         <Button
           btnName={"START A SIP"}
           to={
@@ -78,7 +87,7 @@ const GoalsSection = () => {
           content={"Committed To Helping You Achieve Financial Freedom"}
         />
       </div>
-    </div>
+    </section>
   );
 };
 
