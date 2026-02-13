@@ -35,9 +35,6 @@ function HeroSection() {
       <figure className="w-82.5 h-85 sm:w-95 sm:h-100 md:w-115 lg:w-105 lg:h-100 xl:mr-0 rounded-2xl lg:ml-8 md:h-125 overflow-hidden relative shrink-0 mx-auto sm:mr-15 md:mt-20 lg:mt-0">
         <CubeEffectSlider />
       </figure>
-
-      {/* WhatsApp Floating Icon */}
-      <WhatsappIcon />
     </section>
   );
 }

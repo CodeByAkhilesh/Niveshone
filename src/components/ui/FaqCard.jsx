@@ -1,21 +1,19 @@
 import React from "react";
 import { RiArrowDownSLine } from "@remixicon/react";
 
-const FaqCard = ({ faqs, i, handleClick, activeIndex }) => {
+const FaqCard = ({ faqs, id, handleClick, activeId }) => {
   return (
     <article
-      onClick={() => handleClick(i)}
-      className={`w-[49%] ${
-        activeIndex == i ? "max-h-80" : "max-h-23 xl:max-h-20"
-      } overflow-hidden border border-[#268eef] rounded-lg shadow-[#73a3d2] shadow-md px-5 py-4 transition-all duration-600 ease-linear cursor-pointer w-full`}
+      onClick={() => handleClick(id)}
+      className={`${activeId == id ? "max-h-80" : "max-h-23 xl:max-h-20"} overflow-hidden border border-[#268eef] rounded-lg shadow-[#73a3d2] shadow-md px-5 py-4 transition-all duration-600 ease-linear cursor-pointer w-full`}
     >
       <div className="h-12 w-full flex items-center justify-between font-bold text-gray-200">
-        <h1 className="text-white text-xl md:text-[30px] font-semibold flex items-center tracking-tighter md:tracking-normal">
+        <h5 className="text-white text-xl md:text-[30px] font-semibold flex items-center tracking-tighter md:tracking-normal">
           {faqs.question}
-        </h1>
+        </h5>
         <span
           className={`${
-            activeIndex == i ? "rotate-180" : ""
+            activeId == id ? "rotate-180" : ""
           } transition-all duration-400 delay-125 ease-in-out`}
         >
           <RiArrowDownSLine />
