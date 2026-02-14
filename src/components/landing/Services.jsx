@@ -43,10 +43,11 @@ const Services = () => {
   ];
 
   return (
-    <section className="pb-4 h-auto">
-      <div className="w-77.5 xl:w-302.5 md:w-175.75 mx-auto text-3xl md:text-6xl font-bold tracking-tight mt-15 md:mt-25">
-        <header>
-          <h2 className="text-white mb-10 px-5 text-3xl md:text-5xl lg:text-6xl">
+    <section className="flex-col flex items-center justify-center my-auto  md:mt-20 mt-10">
+
+      {/* Heading  */}
+      <header>
+          <h2 className="text-white mb-10 mx-5 text-3xl md:text-4xl lg:text-6xl xl:w-302.5 md:w-175.75 lg:w-240 font-bold tracking-tight">
             How We Support{" "}
             <span className="bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
               {" "}
@@ -54,6 +55,7 @@ const Services = () => {
             </span>
           </h2>
         </header>
+      <div className="xl:w-302.5 md:w-175.75 mx-auto text-3xl md:text-6xl font-bold tracking-tight">
         <div className="py-5 md:py-15 flex flex-col md:flex-row md:flex md:flex-wrap gap-15 md:gap-20 md:px-5 xl:px-20 md xl:justify-between items-center ">
           {serviceContent.map((content) => {
             return (

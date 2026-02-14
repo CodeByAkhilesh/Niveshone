@@ -26,8 +26,8 @@ const AppPreview = () => {
           <div className="text-center md:text-left">
             <h3 className="py-2 text-xl font-semibold">All-in-One App</h3>
             <h4 className="py-5 text-4xl font-bold">
-              100% Digital. <br />
-              Transparent. <br />
+              <span className="block">100% Digital.</span>
+              <span className="block">Transparent. </span>
               Effortless.
             </h4>
             <p className="py-2 pb-8 md:text-xl text-lg max-w-80 mx-auto ">
