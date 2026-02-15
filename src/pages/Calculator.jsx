@@ -8,6 +8,7 @@ import lumpsumIcon from "../assets/calculator-svgs/lumpsum.svg";
 import goalIcon from "../assets/calculator-svgs/goal-setting.svg";
 import retirementIcon from "../assets/calculator-svgs/retirement-fund.svg";
 import educationIcon from "../assets/calculator-svgs/education.svg";
+import SectionTitle from "../components/ui/SectionTitle";
 
 const Calculator = () => {
   // Calculator Content Data
@@ -71,19 +72,14 @@ const Calculator = () => {
 
       {/* Main Content  */}
       <main>
-        <section>
+        <section className="lg:w-205.75 xl:w-302.5 mx-auto">
           {/* Heading  */}
-          <header className="lg:w-205.75 xl:w-302.5 mx-auto pt-10 lg:py-10 md:px-10 xl:px-15">
-            <h1 className="text-3xl md:text-4xl mx-8 md:mx-0 lg:text-6xl font-bold text-white md:mb-0  lg:mb-2 mt-20 md:mt-30 tracking-tighter">
-              Financial Tools To{" "}
-              <span className="bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
-                Plan Your Goals.
-              </span>
-            </h1>
+          <header className="pt-30 md:pt-40 px-3 md:px-8">
+            <SectionTitle title={"Financial Tools To"} gradientTitle={"Plan Your Goals."} />
           </header>
 
           {/* Calculator Card Wrapper  */}
-          <div className="py-10 md:py-15 xl:py-5 flex flex-col md:flex-row flex-wrap gap-y-15 md:px-10 xl:px-15  items-center md:justify-between lg:w-205.75 xl:w-302.5 mx-auto mb-20">
+          <div className="pt-4 md:py-10 lg:py-0 flex flex-col md:flex-row flex-wrap gap-y-15 md:px-10 xl:px-15  items-center md:justify-between mb-20">
             {toolsData.map((toolData, index) => {
               return <ToolCard key={toolData.id} data={toolData} />;
             })}

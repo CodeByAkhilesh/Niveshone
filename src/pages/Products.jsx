@@ -9,6 +9,7 @@ import sipIcon from "../assets/Product-img/SIP.svg";
 import swpIcon from "../assets/Product-img/SWP.svg";
 import lamfIcon from "../assets/Product-img/LAMF.svg";
 import fdIcon from "../assets/Product-img/FD.svg";
+import SectionTitle from "../components/ui/SectionTitle";
 
 function Products() {
   // Products Content Data
@@ -66,15 +67,11 @@ function Products() {
 
       {/*Main Content  */}
       <main>
-        <section className="min-h-screen xl:w-302.5 mx-auto">
+        <section className="lg:w-205.75 xl:w-302.5 mx-auto">
+
           {/*Heading  */}
-          <header>
-            <h1 className="text-3xl md:text-4xl mx-5 md:mx-10 xl:mx-5 lg:mx-25 xl:w-302.5 lg:text-6xl font-bold text-white pt-28 md:pt-35">
-              Wealth Building{" "}
-              <span className="bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
-                Products.
-              </span>
-            </h1>
+          <header className="pt-30 md:pt-40 px-3 md:px-8">
+            <SectionTitle title={"Wealth Building"} gradientTitle={"Products."} />
           </header>
 
           {/* Products Card Wrapper  */}

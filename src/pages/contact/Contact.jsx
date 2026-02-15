@@ -5,6 +5,7 @@ import Footer from "../../components/layout/Footer";
 import { RiMailFill, RiPhoneFill } from "@remixicon/react";
 import ContactForm from "./ContactForm";
 import contectUsImg from "../../assets/contect_us.webp"
+import SectionTitle from "../../components/ui/SectionTitle";
 
 const Contact = () => {
   return (
@@ -16,16 +17,11 @@ const Contact = () => {
 
       {/* Site Main Content  */}
       <main>
-        <section className="px-3 lg:px-20 xl:px-0 xl:w-280 mx-auto pt-0.5 min-h-screen">
+        <section className="lg:w-205.75 xl:w-302.5 mx-auto px-4">
 
           {/* page main heading */}
-          <header>
-            <h1 className="text-3xl md:text-4xl mx-5 xl:w-302.5 lg:text-6xl font-bold text-white mb-10 lg:mb-20 mt-25 md:mt-35">
-              Get in Touch{" "}
-              <span className="bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
-                With Us.
-              </span>
-            </h1>
+          <header className="pt-30 md:pt-40 md:px-10 lg:px-0">
+            <SectionTitle title={"Get in Touch"} gradientTitle={"With Us."} />
           </header>
           <figure className="w-full md:w-140 lg:w-full text-white rounded-2xl md:overflow-hidden flex flex-col lg:flex-row items-center justify-between mb-20 xl:mb-0 mx-auto border border-[#268eff] shadow-xl shadow-blue-400">
 

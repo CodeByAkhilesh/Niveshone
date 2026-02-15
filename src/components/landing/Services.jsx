@@ -1,6 +1,7 @@
 import React from "react";
 import ServiceCard from "../ui/ServiceCard";
 import GradientBackground from "../ui/GradientBackground";
+import SectionTitle from "../ui/SectionTitle";
 
 const Services = () => {
   const serviceContent = [
@@ -46,14 +47,8 @@ const Services = () => {
     <section className="flex-col flex items-center justify-center my-auto  md:mt-20 mt-10">
 
       {/* Heading  */}
-      <header>
-          <h2 className="text-white mb-10 mx-5 text-3xl md:text-4xl lg:text-6xl xl:w-302.5 md:w-175.75 lg:w-240 font-bold tracking-tight">
-            How We Support{" "}
-            <span className="bg-linear-to-r from-[#3aab50] to-[#268eff] bg-clip-text text-transparent">
-              {" "}
-              Your Investments{" "}
-            </span>
-          </h2>
+      <header className="mx-5 xl:w-302.5 md:w-175.75 lg:w-240">
+          <SectionTitle title={"How We Support"} gradientTitle={"Your Investments"} />
         </header>
       <div className="xl:w-302.5 md:w-175.75 mx-auto text-3xl md:text-6xl font-bold tracking-tight">
         <div className="py-5 md:py-15 flex flex-col md:flex-row md:flex md:flex-wrap gap-15 md:gap-20 md:px-5 xl:px-20 md xl:justify-between items-center ">
