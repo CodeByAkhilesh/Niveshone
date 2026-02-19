@@ -13,7 +13,7 @@ const Services = () => {
           <SectionTitle title={"How We Support"} gradientTitle={"Your Investments"} />
         </header>
       <div className="xl:w-302.5 md:w-175.75 mx-auto text-3xl md:text-6xl font-bold tracking-tight">
-        <div className="py-5 md:py-15 flex flex-col md:flex-row md:flex md:flex-wrap gap-15 md:gap-20 md:px-5 xl:px-20 md xl:justify-between items-center ">
+        <div className="py-5 md:py-0 flex flex-col md:flex-row md:flex md:flex-wrap gap-15 md:gap-20 md:px-5 xl:px-20 md xl:justify-between items-center ">
           {ourServices.map((content) => {
             return (
               <div key={content.id}>
