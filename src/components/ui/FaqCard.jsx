@@ -8,7 +8,7 @@ const FaqCard = ({ faqs, id, handleClick, activeId }) => {
       className={`${activeId == id ? "max-h-80" : "max-h-23 xl:max-h-20"} overflow-hidden border border-[#268eef] rounded-lg shadow-[#73a3d2] shadow-md px-5 py-4 transition-all duration-600 ease-linear cursor-pointer w-full`}
     >
       <div className="h-12 w-full flex items-center justify-between font-bold text-gray-200">
-        <h5 className="text-white text-xl md:text-[30px] font-semibold flex items-center tracking-tighter md:tracking-normal">
+        <h5 className="text-white text-xl md:text-[30px] font-semibold flex items-center tracking-tighter md:tracking-normal pt-4 pb-2">
           {faqs.question}
         </h5>
         <span
@@ -19,7 +19,7 @@ const FaqCard = ({ faqs, id, handleClick, activeId }) => {
           <RiArrowDownSLine />
         </span>
       </div>
-      <p className="text-white mt-5">{faqs.answer}</p>
+      <p className="text-white mt-8">{faqs.answer}</p>
     </article>
   );
 };
