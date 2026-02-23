@@ -1,16 +1,116 @@
-# React + Vite
+# Nivesh One Financial Services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive financial services website built using React and Vite.  
+This project represents my first frontend project, focused on clean UI design, reusable components, and smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+(Coming Soon – Will be deployed on Netlify/Vercel)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Core Technologies
+- React.js
+- Vite
+- Tailwind CSS
+- React Router DOM
+
+### Libraries Used
+- EmailJS – For handling contact form email submissions
+- Remix Icon – For modern and scalable icons
+- Swiper.js – For responsive sliders and carousels
+- React Simple Typewriter – For typing animation effects
+
+---
+
+## ✨ Features
+
+- Fully Responsive Design (Mobile, Tablet, Desktop)
+- Clean and Modular Component Structure
+- Contact Form Integration using EmailJS
+- Smooth Slider Section using Swiper.js
+- Typing Animation Effect
+- Organized Folder Structure
+- Optimized Production Build using Vite
+
+---
+
+## 📂 Project Structure
+
+src/
+ ├── assets/        # Images, logos, static files
+ ├── components/    # Reusable UI components
+ ├── data/          # Centralized data files
+ ├── pages/         # Page-level components
+ ├── routes/        # Routing configuration
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+git clone https://github.com/CodeByAkhilesh/Niveshone.git
+
+Navigate into the project:
+
+cd Niveshone
+
+Install dependencies:
+
+npm install
+
+---
+
+## 🏃 Run Locally
+
+Start development server:
+
+npm run dev
+
+Build for production:
+
+npm run build
+
+Preview production build:
+
+npm run preview
+
+---
+
+## 🌍 Deployment
+
+This project can be deployed on:
+
+- Netlify
+- Vercel
+
+Build Command:
+npm run build
+
+Publish Directory:
+dist
+
+---
+
+## 📈 Future Improvements
+
+- SEO Optimization (Meta Tags & Open Graph)
+- Performance Enhancements
+- Form Validation Improvements
+- Accessibility Improvements
+- Backend Integration (Optional)
+
+---
+
+## 👨‍💻 Author
+
+Akhilesh  
+Frontend Developer  
+Focused on building modern, responsive web interfaces.
