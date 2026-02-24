@@ -16,7 +16,11 @@ function ToolCard({ data }) {
       </h3>
       <p className="text-center text-lg">{data.para}</p>
       <div className="mt-10">
-        <Button btnName={"Calculate"} to={data.link} />
+        <Button 
+        btnName={"Calculate"} 
+        to={data.link}
+        target={"_blank"}
+        />
       </div>
     </article>
   );

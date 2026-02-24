@@ -52,7 +52,11 @@ function Navbar() {
             >
               Contact
             </NavLink>
-            <Button btnName={"Login"} to={"https://client.assetplus.in/"} />
+            <Button
+              btnName={"Login"}
+              to={"https://client.assetplus.in/"}
+              target={"_blank"}
+            />
           </li>
         </ul>
 

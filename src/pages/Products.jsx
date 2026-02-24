@@ -47,10 +47,12 @@ function Products() {
                 to={
                   "https://flow.assetplus.in/client_onboarding/?advisor=687d1770f49f08bc7d72268b"
                 }
+                target={"_blank"}
               />{" "}
               <Button
                 btnName={"Chat On Whatsapp"}
                 to={"https://wa.me/917984300929?text=Hi%20Mutual%20Fund"}
+                target={"_blank"}
               />
             </div>
           </article>

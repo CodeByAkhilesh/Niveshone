@@ -55,6 +55,7 @@ const Contact = () => {
                 <Button
                   btnName={"Chat on whatsapp"}
                   to={"https://wa.me/917984300929?text=Hi%20Mutual%20Fund"}
+                  target={"_blank"}
                 />
               </div>
             </article>
