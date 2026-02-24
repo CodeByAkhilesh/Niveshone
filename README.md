@@ -41,6 +41,8 @@ This project represents my first frontend project, focused on clean UI design, r
 
 ## 📂 Project Structure
 
+```
+
 src/
  ├── assets/        # Images, logos, static files
  ├── components/    # Reusable UI components
@@ -50,7 +52,8 @@ src/
  ├── App.jsx
  ├── main.jsx
  └── index.css
----
+
+```
 
 ## 📦 Installation
 
@@ -96,16 +99,6 @@ npm run build
 
 Publish Directory:
 dist
-
----
-
-## 📈 Future Improvements
-
-- SEO Optimization (Meta Tags & Open Graph)
-- Performance Enhancements
-- Form Validation Improvements
-- Accessibility Improvements
-- Backend Integration (Optional)
 
 ---
 
