@@ -61,9 +61,3 @@
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to top, #3aab50, #268eff);
 }
-
-/* Firefox support */
-/* * {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(15, 250, 203, 0.6) rgb(15, 15, 15);
-} */
