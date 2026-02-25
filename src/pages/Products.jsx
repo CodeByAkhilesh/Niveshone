@@ -5,10 +5,23 @@ import Button from "../components/ui/Button";
 import InfoCard from "../components/ui/InfoCard";
 import SectionTitle from "../components/ui/SectionTitle";
 import { productsData } from "../data/productsData";
+import { Helmet } from "react-helmet-async";
 
 function Products() {
   return (
     <>
+      <Helmet>
+        <title>Investment Products | Nivesh One Financial Services</title>
+        <meta
+          name="description"
+          content="Explore our range of investment products including mutual funds, SIP plans, and long-term wealth creation solutions."
+        />
+        <meta
+          name="keywords"
+          content="Investment Products, SIP Plans, Mutual Fund Products, Financial Services"
+        />
+      </Helmet>
+
       {/* Site Header  */}
       <header>
         <Navbar />

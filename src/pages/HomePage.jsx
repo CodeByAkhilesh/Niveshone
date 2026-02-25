@@ -7,10 +7,23 @@ import GoalsSection from "../components/landing/GoalsSection";
 import AppPreviwe from "../components/landing/AppPreview";
 import FaqSection from "../components/landing/FaqSection";
 import Footer from "../components/layout/Footer";
+import { Helmet } from "react-helmet-async";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
+      <Helmet>
+        <title>Nivesh One Financial Services | Mutual Fund Distributor</title>
+        <meta
+          name="description"
+          content="Nivesh One Financial Services offers mutual fund investment solutions, financial planning, and wealth management services."
+        />
+        <meta
+          name="keywords"
+          content="Mutual Fund, Investment, Financial Planning, SIP, Wealth Management"
+        />
+      </Helmet>
+      
       <Navbar />
       <HeroSection />
       <OurPartnerAMCs />
@@ -19,7 +32,7 @@ const HomePage = () => {
       <AppPreviwe />
       <FaqSection />
       <Footer />
-    </div>
+    </>
   );
 };
 

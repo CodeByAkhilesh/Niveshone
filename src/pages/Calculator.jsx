@@ -4,10 +4,23 @@ import Footer from "../components/layout/Footer";
 import ToolCard from "../components/ui/ToolCard";
 import SectionTitle from "../components/ui/SectionTitle";
 import { calculatorToolsData } from "../data/calculatorsToolData";
+import { Helmet } from "react-helmet-async";
 
 const Calculator = () => {
   return (
     <>
+      <Helmet>
+        <title>Investment Calculator | Nivesh One Financial Services</title>
+        <meta
+          name="description"
+          content="Use our investment calculator to estimate your SIP returns and plan your financial future effectively."
+        />
+        <meta
+          name="keywords"
+          content="SIP Calculator, Investment Calculator, Mutual Fund Calculator, Lumpsum Calculator"
+        />
+      </Helmet>
+
       {/* Site Header  */}
       <header>
         <Navbar />

@@ -2,10 +2,23 @@ import React from "react";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import founderImg from "../assets/founder-img.webp";
+import { Helmet } from "react-helmet-async";
 
 const AboutUs = () => {
   return (
     <>
+      <Helmet>
+        <title>About Us | Nivesh One Financial Services</title>
+        <meta
+          name="description"
+          content="Learn more about Nivesh One Financial Services, our mission, values, and commitment to helping clients achieve financial goals."
+        />
+        <meta
+          name="keywords"
+          content="About Nivesh One, Financial Advisor, Mutual Fund Distributor"
+        />
+      </Helmet>
+
       {/* Site Header */}
       <header>
         <Navbar />
@@ -14,7 +27,6 @@ const AboutUs = () => {
       {/* Main Content  */}
       <main>
         <section className="min-h-screen w-full md:pt-35 md:pb-25 xl:w-302.5 mx-auto lg:px-10 flex flex-col lg:flex-row md:justify-between">
-
           {/* Mobile Heading  */}
           <header className="lg:hidden">
             <h1 className="text-3xl w-full font-bold text-whitentracking-tighter mt-30 md:pb-10 md:mt-0 text-white px-5 md:w-165 mx-auto">
@@ -41,7 +53,6 @@ const AboutUs = () => {
           {/* Founder Content  */}
           <article className="right-content px-10 h-140 md:w-190 lg:w-165 shrink-0 text-white flex items-center mx-auto">
             <div className="md:pl-10 w-full">
-
               {/* Desktop Heading  */}
               <header className="hidden lg:block">
                 <h1 className="text-4xl w-full font-bold text-whitentracking-tighter pb-7">
@@ -76,7 +87,7 @@ const AboutUs = () => {
           </article>
         </section>
       </main>
-      
+
       {/* Site Footer  */}
       <footer>
         <Footer />
