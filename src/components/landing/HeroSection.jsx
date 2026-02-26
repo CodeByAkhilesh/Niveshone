@@ -2,7 +2,6 @@ import React from "react";
 import CubeEffectSlider from "../ui/CubeEffectSlider";
 import TextTypingEffect from "../ui/TextTypingEffect";
 import Button from "../ui/Button";
-import WhatsappIcon from "../ui/WhatsappIcon";
 
 function HeroSection() {
   return (
