@@ -18,6 +18,8 @@ const AppPreview = () => {
             className="h-80 md:h-120 lg:h-145"
             src={previewImg}
             alt="Mobile app interface for 100% digital and paperless mutual fund investment"
+            height="768px"
+            width="300px"
             loading="lazy"
             decoding="async"
           />

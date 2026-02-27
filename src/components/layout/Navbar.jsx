@@ -13,9 +13,11 @@ function Navbar() {
         {/*Brand Logo */}
         <NavLink to="/" className="text-2xl font-bold w-20">
           <img
-            className="object-cover h-full w-full "
+            className="object-cover h-full w-full"
             src={brandLogo}
             alt="Nivesh One Financial Services – mutual fund and financial advisory brand logo"
+            height="80px"
+            width="80px"
           />
         </NavLink>
 
