@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <header className="fixed z-30 w-full">
-      <nav className="text-white md:max-w-302.5 lg:max-w-screen xl:px-35 md:px-10 lg:px-5 px-6 py-4 flex justify-between items-center w-full mx-auto bg-[#00000080] backdrop-blur-xl">
+      <nav className="text-white md:max-w-302.5 lg:max-w-380.5 xl:px-32 md:px-10 lg:px-5 px-6 py-4 flex justify-between items-center w-full mx-auto bg-[#00000080] backdrop-blur-xl">
         {/*Brand Logo */}
         <NavLink to="/" className="text-2xl font-bold w-20">
           <img
