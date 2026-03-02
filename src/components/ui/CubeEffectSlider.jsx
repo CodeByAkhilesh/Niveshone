@@ -39,7 +39,7 @@ const CubeEffectSlider = () => {
     >
       <SwiperSlide>
         <img
-          className="h-full w-full object-cover bg-center rounded-2xl"
+          className="h-112.5 w-112.5 object-cover bg-center rounded-2xl"
           src={sliderImg1}
           alt="Nivesh One Financial Services providing mutual fund investment and SIP planning"
           height="450px"
@@ -49,7 +49,7 @@ const CubeEffectSlider = () => {
 
       <SwiperSlide>
         <img
-          className="h-full w-full object-cover rounded-2xl"
+          className="h-112.5 w-112.5 object-cover rounded-2xl"
           src={sliderImg2}
           alt="Professional mutual fund advisor analyzing investment growth and portfolio performance"
           height="450px"
@@ -59,7 +59,7 @@ const CubeEffectSlider = () => {
 
       <SwiperSlide>
         <img
-          className="h-full w-full object-cover rounded-2xl"
+          className="h-112.5 w-112.5 object-cover rounded-2xl"
           src={sliderImg3}
           alt="Happy couple planning long term financial security through mutual fund investments"
           height="450px"

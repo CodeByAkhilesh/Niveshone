@@ -15,10 +15,10 @@ const AppPreview = () => {
         {/* App Preview Image  */}
         <figure className="md:w-1/2 lg:w-[50%] flex justify-center">
           <img
-            className="h-80 md:h-120 lg:h-145"
+            className="h-125 md:h-130 lg:h-135"
             src={previewImg}
             alt="Mobile app interface for 100% digital and paperless mutual fund investment"
-            height="768px"
+            // height="768px"
             width="300px"
             loading="lazy"
             decoding="async"
