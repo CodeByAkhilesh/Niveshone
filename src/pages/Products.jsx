@@ -64,7 +64,7 @@ function Products() {
               />{" "}
               <Button
                 btnName={"Chat On Whatsapp"}
-                to={"https://wa.me/917984300929?text=Hi%20Mutual%20Fund"}
+                to={"https://wa.me/917984300926?text=Hi%20Nivesh%20One"}
                 target={"_blank"}
               />
             </div>

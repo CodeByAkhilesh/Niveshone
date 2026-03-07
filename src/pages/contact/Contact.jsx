@@ -35,7 +35,7 @@ const Contact = () => {
           <header className="pt-30 md:pt-40 md:px-10 lg:px-0">
             <SectionTitle title={"Get in Touch"} gradientTitle={"With Us."} />
           </header>
-          <figure className="w-full md:w-140 lg:w-full text-white rounded-2xl md:overflow-hidden flex flex-col lg:flex-row items-center justify-between mb-20 xl:mb-0 mx-auto border border-[#268eff] shadow-xl shadow-blue-400">
+          <figure className="w-full md:w-140 lg:w-full h-181.75 md:h-192 lg:h-117.75 text-white rounded-2xl md:overflow-hidden flex flex-col lg:flex-row items-center justify-between mb-20 xl:mb-0 mx-auto border border-[#268eff] shadow-xl shadow-blue-400">
             {/* Contect Us Visual Image  */}
             <img
               src={contectUsImg}
@@ -54,18 +54,18 @@ const Contact = () => {
                 <span>
                   <RiPhoneFill /> {/* Phone Icon  */}
                 </span>
-                +91-7232933333
+                +91-7984300926
               </h4>
               <h4 className="text-xl md:text-2xl font-bold pt-4 flex items-center gap-4">
                 <span>
                   <RiMailFill /> {/* Mail Icon  */}
                 </span>
-                Niveshonefs@gmail.com
+                yadavakhileshramnath@gmail.com
               </h4>
               <div className="pt-5 mx-auto lg:mx-0">
                 <Button
                   btnName={"Chat on whatsapp"}
-                  to={"https://wa.me/917984300929?text=Hi%20Mutual%20Fund"}
+                  to={"https://wa.me/917984300926?text=Hi%20Nivesh%20One"}
                   target={"_blank"}
                 />
               </div>
