@@ -30,7 +30,7 @@ const Contact = () => {
 
       {/* Site Main Content  */}
       <main>
-        <section className="lg:w-205.75 xl:w-302.5 mx-auto px-4">
+        <section className="min-h-screen lg:w-205.75 xl:w-302.5 mx-auto px-4">
           {/* page main heading */}
           <header className="pt-30 md:pt-40 md:px-10 lg:px-0">
             <SectionTitle title={"Get in Touch"} gradientTitle={"With Us."} />

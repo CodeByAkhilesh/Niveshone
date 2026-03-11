@@ -28,7 +28,7 @@ const Calculator = () => {
 
       {/* Main Content  */}
       <main>
-        <section className="lg:w-205.75 xl:w-302.5 mx-auto">
+        <section className="min-h-screen lg:w-205.75 xl:w-302.5 mx-auto">
           {/* Heading  */}
           <header className="pt-30 md:pt-40 px-3 md:px-8">
             <SectionTitle
