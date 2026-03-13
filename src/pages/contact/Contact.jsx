@@ -35,28 +35,29 @@ const Contact = () => {
           <header className="pt-30 md:pt-40 md:px-10 lg:px-0">
             <SectionTitle title={"Get in Touch"} gradientTitle={"With Us."} />
           </header>
-          <figure className="w-full md:w-140 lg:w-full h-181.75 md:h-192 lg:h-117.75 text-white rounded-2xl md:overflow-hidden flex flex-col lg:flex-row items-center justify-between mb-20 xl:mb-0 mx-auto border border-[#268eff] shadow-xl shadow-blue-400">
+          <figure className="w-full  md:w-140 lg:w-full h-181.75 md:h-250 lg:h-117.75 text-white rounded-2xl md:overflow-hidden flex flex-col lg:flex-row items-center justify-center mb-20 xl:mb-0 mx-auto border border-[#268eff] shadow-xl shadow-blue-400">
             {/* Contect Us Visual Image  */}
             <img
               src={contectUsImg}
               alt="User contacting financial advisor through mobile for mutual fund consultation"
               loading="lazy"
               decoding="async"
+              className=" w-full h-full md:h-160 lg:h-full object-cover lg:w-80 xl:w-100"
             />
             {/* Contect Us Content  */}
-            <article className="left-content flex flex-col md:justify-center lg:w-1/2 mx-10 md:mx-20 lg:mx-10 my-10 ">
+            <article className="left-content flex flex-col w-full text-wrap md:justify-center lg:w-120 px-5 md:mx-20 lg:mx-0 my-10 h-full">
               <h3 className="font-bold text-3xl text-[#268eff]">Contact Us</h3>
               <p className="xl:w-110">
                 To get in touch, please use the details or references provided
                 below. I will respond as soon as possible.
               </p>
-              <h4 className="text-xl md:text-2xl font-bold pt-4 flex gap-4">
+              <h4 className="md:text-2xl font-bold pt-4 flex gap-2">
                 <span>
                   <RiPhoneFill /> {/* Phone Icon  */}
                 </span>
                 +91-7984300926
               </h4>
-              <h4 className="text-xl md:text-2xl font-bold pt-4 flex items-center gap-4">
+              <h4 className="md:text-2xl font-bold pt-4 flex items-center gap-2">
                 <span>
                   <RiMailFill /> {/* Mail Icon  */}
                 </span>
