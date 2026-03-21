@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <header className="fixed z-30 w-full">
-      <nav className="text-white md:max-w-302.5 lg:max-w-380.5 xl:px-32 md:px-10 lg:px-5 px-6 py-4 flex justify-between items-center w-full mx-auto bg-[#00000080] backdrop-blur-xl">
+      <nav className="text-white md:max-w-302.5 h-17 md:h-22 lg:max-w-380.5 xl:px-32 md:px-10 lg:px-5 px-6 py-4 flex justify-between items-center w-full mx-auto bg-[#00000080] backdrop-blur-xl">
         {/*Brand Logo */}
         <NavLink to="/" className="text-2xl font-bold w-20">
           <img
@@ -79,7 +79,7 @@ function Navbar() {
       {isMenuOpen && (
         <nav
           id="mobile-menu"
-          className="absolute top-20 left-0 h-screen w-full bg-[#00000080] text-center lg:hidden backdrop-blur-xl text-white font-bold text-2xl"
+          className="absolute top-0 pt-20 left-0 h-screen w-full bg-[#00000080] text-center lg:hidden backdrop-blur-xl text-white font-bold text-2xl -z-1"
         >
           <ul>
             <li className="flex flex-col gap-6 py-6 w-fit mx-auto">
