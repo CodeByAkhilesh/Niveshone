@@ -56,7 +56,7 @@ function Navbar() {
             </NavLink>
             <Button
               btnName={"Login"}
-              to={"https://client.assetplus.in/"}
+              to={"https://flow.assetplus.in/client_onboarding/?advisor=687d1770f49f08bc7d72268b"}
               target={"_blank"}
             />
           </li>
